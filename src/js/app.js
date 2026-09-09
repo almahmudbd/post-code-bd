@@ -278,21 +278,19 @@
 
       const dEn = district.districtEn.toLowerCase();
       const dBn = cleanBengaliText(district.districtBn);
-      const divEn = district.divisionEn.toLowerCase();
-      const divBn = cleanBengaliText(district.divisionBn);
 
-      const districtMatchesSearch = searchToken && (
+      // Match only district name — NOT division name (searching "rajshahi" should not
+      // surface all 8 Rajshahi-division districts before Rajshahi district itself)
+      const districtNameMatches = searchToken && (
         dEn.includes(searchToken) ||
-        dBn.includes(queryInfo.cleanBn) ||
-        divEn.includes(searchToken) ||
-        divBn.includes(queryInfo.cleanBn)
+        dBn.includes(queryInfo.cleanBn)
       );
 
       const matchingOffices = district.postOffices.filter(po => {
         if (!searchToken) return true;
 
-        // If district itself matched search, keep all its offices unless specific post office keyword is entered
-        if (districtMatchesSearch) return true;
+        // If district name itself matched, keep all its post offices
+        if (districtNameMatches) return true;
 
         // Otherwise check post office specific fields
         const codeEn = po.postCodeEn || '';
@@ -317,9 +315,20 @@
       if (matchingOffices.length > 0) {
         resultDistricts.push({
           ...district,
-          postOffices: sortPostOffices(matchingOffices)
+          postOffices: sortPostOffices(matchingOffices),
+          _districtNameMatches: districtNameMatches  // used for sort priority below
         });
       }
+    }
+
+    // Sort: districts whose own name matches the query come first (e.g. "Rajshahi District"
+    // before other districts that only matched via a post office name)
+    if (state.searchQuery) {
+      resultDistricts.sort((a, b) => {
+        if (a._districtNameMatches && !b._districtNameMatches) return -1;
+        if (!a._districtNameMatches && b._districtNameMatches) return 1;
+        return 0;
+      });
     }
 
     return resultDistricts;
@@ -828,7 +837,7 @@
     });
 
     text += `--------------------------------------------------\n`;
-    text += `Source: Bangladesh Postal Directory (https://github.com/almahmudbd/post-code-bd)\n`;
+    text += `Source: Bangladesh Postal Directory (https://postcodebd.vercel.app/)\n`;
 
     elements.shareTextarea.value = text;
     elements.textModal.classList.add('active');
