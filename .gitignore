@@ -1,0 +1,20 @@
+
+AGENT.md
+CLAUDE.md
+.agent-mem/
+
+# Auto-generated agent rules (personalized per developer)
+.brainsync/agent-rules.md
+
+# Auto-generated AI agent exclusions
+.cursorrules
+.clineRules
+.windsurfrules
+.gemini/
+.cline/
+.agent/
+.agents/
+.cursor/
+.brainsync/
+.kiro/
+.vscode/

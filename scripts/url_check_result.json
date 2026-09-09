@@ -1,0 +1,326 @@
+{
+  "ok": [
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922dc7d933eb65569e10a5f",
+      "name": "ঢাকা",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922de5c933eb65569e1a1c1",
+      "name": "নারায়নগঞ্জ",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922dcdc933eb65569e126fa",
+      "name": "মুন্সিগঞ্জ",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922df53933eb65569e213b9",
+      "name": "নরসিংদী",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922dc3d933eb65569e0f312",
+      "name": "গাজীপুর",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922dcc0933eb65569e11d77",
+      "name": "মানিকগঞ্জ",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922dd7b933eb65569e15334",
+      "name": "টাঙ্গাইল",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922e10f933eb65569e29f1a",
+      "name": "জামালপুর",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922e064933eb65569e26d35",
+      "name": "শেরপুর",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922e12c933eb65569e2aaaf",
+      "name": "কিশোরগঞ্জ",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922e0f6933eb65569e2955c",
+      "name": "নেত্রকোনা",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922df20933eb65569e200c3",
+      "name": "সুনামগঞ্জ",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922dc22933eb65569e0e957",
+      "name": "সিলেট",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922dfd2933eb65569e24250",
+      "name": "মৌলভীবাজার",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922df67933eb65569e21c5c",
+      "name": "হবিগঞ্জ",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922e123933eb65569e2a733",
+      "name": "ব্রাহ্মণবাড়িয়া",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922df8d933eb65569e22ba9",
+      "name": "কুমিল্লা",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922e065933eb65569e26d8d",
+      "name": "চাঁদপুর",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922df52933eb65569e21350",
+      "name": "লক্ষ্মীপুর",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922df42933eb65569e20e89",
+      "name": "নোয়াখালী",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922e009933eb65569e2522c",
+      "name": "ফেণী",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922df21933eb65569e2011d",
+      "name": "চট্টগ্রাম",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922e064933eb65569e26d27",
+      "name": "খাগড়াছড়ি",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922e099933eb65569e27c27",
+      "name": "রাঙ্গামাটি",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922e099933eb65569e27c53",
+      "name": "বান্দরবান",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922dda9933eb65569e15c94",
+      "name": "কক্সবাজার",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922defd933eb65569e1efab",
+      "name": "পঞ্চগড়",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922de9d933eb65569e1c047",
+      "name": "ঠাকুরগাঁও",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922dc5d933eb65569e0feff",
+      "name": "দিনাজপুর",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922df1f933eb65569e1fffe",
+      "name": "নীলফামারী",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922e117933eb65569e2a262",
+      "name": "রংপুর",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922dfa5933eb65569e2338f",
+      "name": "লালমনিরহাট",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922e11c933eb65569e2a46f",
+      "name": "কুড়িগ্রাম",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922de28933eb65569e18a7d",
+      "name": "গাইবান্ধা",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922e0fc933eb65569e296e9",
+      "name": "বগুড়া",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922de92933eb65569e1bb3e",
+      "name": "জয়পুরহাট",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922df70933eb65569e21fec",
+      "name": "রাজশাহী",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922df3f933eb65569e20d69",
+      "name": "চাঁপাইনবাবগঞ্জ",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922e119933eb65569e2a2e1",
+      "name": "নাটোর",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922df36933eb65569e209b6",
+      "name": "নওগাঁ",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922df74933eb65569e22183",
+      "name": "পাবনা",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922ddec933eb65569e1719b",
+      "name": "সিরাজগঞ্জ",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922dde1933eb65569e16df6",
+      "name": "কুস্টিয়া",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922ddb0933eb65569e15e32",
+      "name": "মেহেরপুর",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922e10a933eb65569e29cd2",
+      "name": "চুয়াডাঙ্গা",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922de99933eb65569e1be30",
+      "name": "ঝিনাইদহ",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922dd8f933eb65569e15762",
+      "name": "যশোর",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922e022933eb65569e25a42",
+      "name": "নড়াইল",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922df48933eb65569e210aa",
+      "name": "মাগুড়া",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922df09933eb65569e1f65d",
+      "name": "রাজবাড়ী",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922de2b933eb65569e18bdd",
+      "name": "ফরিদপুর",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922df58933eb65569e215a4",
+      "name": "মাদারিপুর",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922dfcf933eb65569e24187",
+      "name": "শরিয়তপুর",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922df05933eb65569e1f42e",
+      "name": "গোপালগঞ্জ",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922de4f933eb65569e19bff",
+      "name": "বরিশাল",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922e0ac933eb65569e281f4",
+      "name": "ভোলা",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922df7a933eb65569e22404",
+      "name": "ঝালকাঠি",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922dc7a933eb65569e1093e",
+      "name": "পিরোজপুর",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922e123933eb65569e2a74c",
+      "name": "পটুয়াখালী",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922db72933eb65569e0a2be",
+      "name": "বরগুণা",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922dda6933eb65569e15bf2",
+      "name": "খুলনা",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922ded4933eb65569e1dad9",
+      "name": "বাগেরহাট",
+      "status": 200
+    },
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922de0f933eb65569e17f03",
+      "name": "সাতক্ষীরা",
+      "status": 200
+    }
+  ],
+  "broken": [
+    {
+      "href": "https://bdpost.gov.bd/pages/static-pages/6922dd2d933eb65569e13d1e",
+      "name": "ময়মনসিংহ",
+      "status": 404
+    }
+  ]
+}

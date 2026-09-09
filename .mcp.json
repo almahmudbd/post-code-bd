@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "brainsync": {
+      "command": "node",
+      "args": [
+        "c:\\Users\\almahmud\\.antigravity-ide\\extensions\\local.local-brainsync-3.3.12\\dist\\mcp-server.js"
+      ],
+      "env": {
+        "BRAINSYNC_ENV_FILE": "C:\\Users\\almahmud\\.bsync_core\\post-code-bd\\mcp-secret-env.json"
+      }
+    }
+  }
+}
