@@ -12,4 +12,10 @@
       <image:caption>Instant search across 64 districts &amp; 1,389+ post offices in Bangladesh</image:caption>
     </image:image>
   </url>
+  <url>
+    <loc>https://postcodebd.vercel.app/contact</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
