@@ -99,7 +99,7 @@
           "districtEn": "Dhaka",
           "districtBn": "ঢাকা",
           "thanaBn": "ঢাকা সেনানিবাস",
-          "postOfficeBn": "ঢাকা সেনানিবাস টিএসও",
+          "postOfficeBn": "ঢাকা সেনানিবাস TSO",
           "postCodeEn": "1206",
           "postCodeBn": "১২০৬"
         },
@@ -132,7 +132,7 @@
           "districtEn": "Dhaka",
           "districtBn": "ঢাকা",
           "thanaBn": "ধানমন্ডি",
-          "postOfficeBn": "জিগাতলা টিএসও",
+          "postOfficeBn": "জিগাতলা TSO",
           "postCodeEn": "1209",
           "postCodeBn": "১২০৯"
         },
@@ -143,7 +143,7 @@
           "districtEn": "Dhaka",
           "districtBn": "ঢাকা",
           "thanaBn": "বনানী",
-          "postOfficeBn": "বনানী টিএসও",
+          "postOfficeBn": "বনানী TSO",
           "postCodeEn": "1213",
           "postCodeBn": "১২১৩"
         },
@@ -165,7 +165,7 @@
           "districtEn": "Dhaka",
           "districtBn": "ঢাকা",
           "thanaBn": "যাত্রাবাড়ি",
-          "postOfficeBn": "গেন্ডারিয়া টিএসও",
+          "postOfficeBn": "গেন্ডারিয়া TSO",
           "postCodeEn": "1204",
           "postCodeBn": "১২০৪"
         },
@@ -253,7 +253,7 @@
           "districtEn": "Dhaka",
           "districtBn": "ঢাকা",
           "thanaBn": "খিলগাঁও",
-          "postOfficeBn": "খিলগাঁও টিএসও",
+          "postOfficeBn": "খিলগাঁও TSO",
           "postCodeEn": "1219",
           "postCodeBn": "১২১৯"
         },
@@ -264,7 +264,7 @@
           "districtEn": "Dhaka",
           "districtBn": "ঢাকা",
           "thanaBn": "খিলক্ষেত",
-          "postOfficeBn": "খিলক্ষেত টিএসও",
+          "postOfficeBn": "খিলক্ষেত TSO",
           "postCodeEn": "1229",
           "postCodeBn": "১২২৯"
         },
@@ -275,7 +275,7 @@
           "districtEn": "Dhaka",
           "districtBn": "ঢাকা",
           "thanaBn": "লালবাগ",
-          "postOfficeBn": "পোস্তা টিএসও",
+          "postOfficeBn": "পোস্তা TSO",
           "postCodeEn": "1211",
           "postCodeBn": "১২১১"
         },
@@ -286,7 +286,7 @@
           "districtEn": "Dhaka",
           "districtBn": "ঢাকা",
           "thanaBn": "মিরপুর",
-          "postOfficeBn": "মিরপুর টিএসও",
+          "postOfficeBn": "মিরপুর TSO",
           "postCodeEn": "1216",
           "postCodeBn": "১২১৬"
         },
@@ -308,7 +308,7 @@
           "districtEn": "Dhaka",
           "districtBn": "ঢাকা",
           "thanaBn": "শের এ বাংলা নগর",
-          "postOfficeBn": "সংসদ ভবন টিএসও",
+          "postOfficeBn": "সংসদ ভবন TSO",
           "postCodeEn": "1225",
           "postCodeBn": "১২২৫"
         },
@@ -319,7 +319,7 @@
           "districtEn": "Dhaka",
           "districtBn": "ঢাকা",
           "thanaBn": "মতিঝিল",
-          "postOfficeBn": "বঙ্গভবন টিএসও",
+          "postOfficeBn": "বঙ্গভবন TSO",
           "postCodeEn": "1222",
           "postCodeBn": "১২২২"
         },
@@ -330,7 +330,7 @@
           "districtEn": "Dhaka",
           "districtBn": "ঢাকা",
           "thanaBn": "মতিঝিল",
-          "postOfficeBn": "দিলকুশা টিএসও",
+          "postOfficeBn": "দিলকুশা TSO",
           "postCodeEn": "1223",
           "postCodeBn": "১২২৩"
         },
@@ -407,7 +407,7 @@
           "districtEn": "Dhaka",
           "districtBn": "ঢাকা",
           "thanaBn": "নিউমার্কেট",
-          "postOfficeBn": "নিউমার্কেট টিএসও",
+          "postOfficeBn": "নিউমার্কেট TSO",
           "postCodeEn": "1205",
           "postCodeBn": "১২০৫"
         },
@@ -429,7 +429,7 @@
           "districtEn": "Dhaka",
           "districtBn": "ঢাকা",
           "thanaBn": "রমনা",
-          "postOfficeBn": "শান্তিনগর টিএসও",
+          "postOfficeBn": "শান্তিনগর TSO",
           "postCodeEn": "1217",
           "postCodeBn": "১২১৭"
         },
@@ -440,7 +440,7 @@
           "districtEn": "Dhaka",
           "districtBn": "ঢাকা",
           "thanaBn": "সবুজবাগ",
-          "postOfficeBn": "বাসাবো টিএসও",
+          "postOfficeBn": "বাসাবো TSO",
           "postCodeEn": "1214",
           "postCodeBn": "১২১৪"
         },
@@ -572,7 +572,7 @@
           "districtEn": "Dhaka",
           "districtBn": "ঢাকা",
           "thanaBn": "সূত্রাপুর",
-          "postOfficeBn": "গেন্ডারিয়া টিএসও",
+          "postOfficeBn": "গেন্ডারিয়া TSO",
           "postCodeEn": "1204",
           "postCodeBn": "১২০৪"
         },
@@ -583,7 +583,7 @@
           "districtEn": "Dhaka",
           "districtBn": "ঢাকা",
           "thanaBn": "সূত্রাপুর",
-          "postOfficeBn": "ওয়ারী টিএসও",
+          "postOfficeBn": "ওয়ারী TSO",
           "postCodeEn": "1203",
           "postCodeBn": "১২০৩"
         },
@@ -594,7 +594,7 @@
           "districtEn": "Dhaka",
           "districtBn": "ঢাকা",
           "thanaBn": "তেজগাঁও",
-          "postOfficeBn": "তেজগাঁও টিএসও",
+          "postOfficeBn": "তেজগাঁও TSO",
           "postCodeEn": "1215",
           "postCodeBn": "১২১৫"
         },
@@ -616,7 +616,7 @@
           "districtEn": "Dhaka",
           "districtBn": "ঢাকা",
           "thanaBn": "উত্তরা",
-          "postOfficeBn": "উত্তরা মডেল টাউন টিএসও",
+          "postOfficeBn": "উত্তরা মডেল টাউন TSO",
           "postCodeEn": "1230",
           "postCodeBn": "১২৩০"
         }

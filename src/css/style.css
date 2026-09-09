@@ -345,6 +345,18 @@ button, input, select {
   background: transparent;
   color: var(--text-primary);
   outline: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+/* Hide browser-native search cancel button (causes white patch + duplicate X) */
+.search-input::-webkit-search-cancel-button,
+.search-input::-webkit-search-decoration,
+.search-input::-webkit-search-results-button,
+.search-input::-webkit-search-results-decoration {
+  -webkit-appearance: none;
+  appearance: none;
+  display: none;
 }
 
 .search-input::placeholder {
@@ -355,7 +367,7 @@ button, input, select {
 .search-clear-btn {
   position: absolute;
   right: 14px;
-  background: var(--bg-surface-muted);
+  background: transparent;
   border: none;
   border-radius: var(--radius-full);
   width: 28px;
@@ -376,7 +388,7 @@ button, input, select {
 }
 
 .search-clear-btn:hover {
-  background: var(--border-medium);
+  background: var(--bg-surface-muted);
   color: var(--text-primary);
 }
 

@@ -89,12 +89,14 @@ class DistrictImageGenerator {
     ctx.font = '800 36px "Google Sans", "Plus Jakarta Sans", "Noto Sans Bengali", sans-serif';
     ctx.fillStyle = primaryText;
     ctx.fillText(`${district.districtEn} District`, innerX, currentY);
-    
-    // Bengali District Name beside or right-aligned
-    ctx.font = '600 32px "Noto Sans Bengali", sans-serif';
-    ctx.fillStyle = accentBlue;
+
+    // Measure English text width BEFORE switching font to Bengali
     const enWidth = ctx.measureText(`${district.districtEn} District`).width;
-    ctx.fillText(`(জেলা: ${district.districtBn})`, innerX + enWidth + 16, currentY);
+
+    // Bengali District Name beside, offset past the English text
+    ctx.font = '600 30px "Noto Sans Bengali", sans-serif';
+    ctx.fillStyle = accentBlue;
+    ctx.fillText(`(জেলা: ${district.districtBn})`, innerX + enWidth + 24, currentY);
     
     currentY += 32;
     

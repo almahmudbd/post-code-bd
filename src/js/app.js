@@ -7,8 +7,7 @@
   'use strict';
 
   // Digit mappings for instant cross-language search
-  const BN_TO_EN_DIGITS = { '০': '0', '১': '1', '২': '2', '৩': '3', '৪': '4', '৫': '5', '৬': '6', '৭': '7', '৮': '8', '৯': '9' };
-  const EN_TO_BN_DIGITS = { '0': '০', '1': '১', '2': '২', '3': '৩', '4': '৪', '5': '৫', '6': '৬', '7': '৭', '8': '৮', '9': '৯' };
+  const DIGIT_MAP = { '০': '0', '১': '1', '২': '2', '৩': '3', '৪': '4', '৫': '5', '৬': '6', '৭': '7', '৮': '8', '৯': '9', '0': '০', '1': '১', '2': '২', '3': '৩', '4': '৪', '5': '৫', '6': '৬', '7': '৭', '8': '৮', '9': '৯' };
 
   // Comprehensive Bengali Unicode normalization
   function cleanBengaliText(str) {
@@ -27,9 +26,8 @@
 
   function normalizeSearchText(str) {
     if (!str) return { original: '', cleanBn: '', withEnDigits: '' };
-    // Normalize string, convert Bengali Unicode variants and Bengali digits
     const cleaned = cleanBengaliText(str);
-    const withEnDigits = cleaned.replace(/[০-৯]/g, d => BN_TO_EN_DIGITS[d] || d);
+    const withEnDigits = cleaned.replace(/[০-৯]/g, d => DIGIT_MAP[d] || d);
     return {
       original: cleaned,
       cleanBn: cleaned,
@@ -148,29 +146,8 @@
 
   // Load Postal Code Data and Branch Offices
   async function loadData() {
-    // 1. Load primary post codes
-    if (window.BD_POSTCODE_DATA) {
-      state.data = window.BD_POSTCODE_DATA;
-    } else {
-      try {
-        const response = await fetch('src/data/postcodes.json');
-        state.data = await response.json();
-      } catch (err) {
-        console.error('Failed to load JSON directly, checking window data', err);
-      }
-    }
-
-    // 2. Load branch offices without postcodes
-    if (window.BD_BRANCH_OFFICES_DATA) {
-      state.branchData = window.BD_BRANCH_OFFICES_DATA;
-    } else {
-      try {
-        const response = await fetch('src/data/branch_offices_no_postcode.json');
-        state.branchData = await response.json();
-      } catch (err) {
-        console.warn('Branch offices data not available yet', err);
-      }
-    }
+    state.data = window.BD_POSTCODE_DATA;
+    state.branchData = window.BD_BRANCH_OFFICES_DATA;
 
     if (!state.data) {
       showToast('Error loading postal code database.', 'error');
@@ -689,11 +666,14 @@
     });
 
     // Modal Action Buttons
-    elements.copyShareTextBtn?.addEventListener('click', () => {
-      const text = elements.shareTextarea.value;
-      navigator.clipboard.writeText(text).then(() => {
-        showToast('Formatted list copied to clipboard!');
+    function copyShareText(msg = 'Formatted list copied to clipboard!') {
+      navigator.clipboard.writeText(elements.shareTextarea.value).then(() => {
+        showToast(msg);
       });
+    }
+
+    elements.copyShareTextBtn?.addEventListener('click', () => {
+      copyShareText();
     });
 
     elements.nativeShareBtn?.addEventListener('click', async () => {
@@ -707,9 +687,7 @@
           if (err.name !== 'AbortError') showToast('Could not share.', 'error');
         }
       } else {
-        navigator.clipboard.writeText(text).then(() => {
-          showToast('Copied to clipboard (Share API not supported on this browser)!');
-        });
+        copyShareText('Copied to clipboard (Share API not supported)!');
       }
     });
   }
