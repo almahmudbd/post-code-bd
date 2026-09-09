@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://postcodebd.vercel.app/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://postcodebd.vercel.app/src/css/postcodebd-banners.png</image:loc>
+      <image:title>Bangladesh Postal Codes Directory | PostCode-BD</image:title>
+      <image:caption>Instant search across 64 districts &amp; 1,389+ post offices in Bangladesh</image:caption>
+    </image:image>
+  </url>
+</urlset>
