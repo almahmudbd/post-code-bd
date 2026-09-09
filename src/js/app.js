@@ -59,6 +59,8 @@
     themeToggleBtn: document.getElementById('themeToggleBtn'),
     favToggleBtn: document.getElementById('favToggleBtn'),
     favCountBadge: document.getElementById('favCountBadge'),
+    pwaInstallBtn: document.getElementById('pwaInstallBtn'),
+    offlineIndicator: document.getElementById('offlineIndicator'),
     viewListBtn: document.getElementById('viewListBtn'),
     viewGridBtn: document.getElementById('viewGridBtn'),
     branchToggle: document.getElementById('branchToggle'),
@@ -106,6 +108,7 @@
     populateDistrictSelect();
     updateFavoriteBadge();
     render();
+    initPWA();
   }
 
   // Layout Management (List default, Grid optional, saved in localStorage)
@@ -918,6 +921,93 @@
   }
 
   // ==========================================================================
+  // PWA & Offline Support Integration
+  // ==========================================================================
+
+  let deferredInstallPrompt = null;
+
+  function initPWA() {
+    // 1. Register Service Worker
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then((registration) => {
+            console.log('[SW] Service worker registered successfully:', registration.scope);
+
+            // Check if there is an updated service worker waiting
+            registration.addEventListener('updatefound', () => {
+              const newWorker = registration.installing;
+              if (newWorker) {
+                newWorker.addEventListener('statechange', () => {
+                  if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                    showToast('New update available! Refresh for the latest version.', 'info');
+                  }
+                });
+              }
+            });
+          })
+          .catch((err) => {
+            console.warn('[SW] Service worker registration failed:', err);
+          });
+      });
+    }
+
+    // 2. Install App Prompt Handling (beforeinstallprompt)
+    window.addEventListener('beforeinstallprompt', (e) => {
+      e.preventDefault();
+      deferredInstallPrompt = e;
+      if (elements.pwaInstallBtn) {
+        elements.pwaInstallBtn.style.display = 'inline-flex';
+      }
+    });
+
+    if (elements.pwaInstallBtn) {
+      elements.pwaInstallBtn.addEventListener('click', async () => {
+        if (!deferredInstallPrompt) {
+          showToast('App is ready or already installed.', 'info');
+          return;
+        }
+        deferredInstallPrompt.prompt();
+        const choiceResult = await deferredInstallPrompt.userChoice;
+        if (choiceResult && choiceResult.outcome === 'accepted') {
+          console.log('[PWA] User accepted installation prompt');
+          elements.pwaInstallBtn.style.display = 'none';
+        }
+        deferredInstallPrompt = null;
+      });
+    }
+
+    window.addEventListener('appinstalled', () => {
+      console.log('[PWA] PostCode-BD app was successfully installed');
+      if (elements.pwaInstallBtn) {
+        elements.pwaInstallBtn.style.display = 'none';
+      }
+      showToast('PostCode-BD installed! You can now use it completely offline.', 'success');
+    });
+
+    // 3. Online & Offline Detection
+    function handleNetworkChange() {
+      const isOnline = navigator.onLine;
+      if (elements.offlineIndicator) {
+        elements.offlineIndicator.style.display = isOnline ? 'none' : 'inline-flex';
+      }
+      if (!isOnline) {
+        showToast('You are offline — PostCode-BD works 100% offline! (অফলাইন মোড)', 'info');
+      } else {
+        showToast('Back online! (পুনরায় অনলাইন)', 'success');
+      }
+    }
+
+    window.addEventListener('online', handleNetworkChange);
+    window.addEventListener('offline', handleNetworkChange);
+
+    // Initial check on load
+    if (!navigator.onLine && elements.offlineIndicator) {
+      elements.offlineIndicator.style.display = 'inline-flex';
+    }
+  }
+
+  // ==========================================================================
   // Toast Notification System
   // ==========================================================================
 
@@ -925,11 +1015,14 @@
     if (!elements.toastContainer) return;
 
     const toast = document.createElement('div');
-    toast.className = 'toast';
+    toast.className = `toast toast-${type}`;
 
-    const icon = type === 'error'
-      ? `<svg class="toast-icon" style="color: #ef4444" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>`
-      : `<svg class="toast-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>`;
+    let icon = `<svg class="toast-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>`;
+    if (type === 'error') {
+      icon = `<svg class="toast-icon" style="color: #ef4444" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>`;
+    } else if (type === 'info') {
+      icon = `<svg class="toast-icon" style="color: #0284c7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>`;
+    }
 
     toast.innerHTML = `${icon}<span>${escapeHtml(message)}</span>`;
     elements.toastContainer.appendChild(toast);
@@ -937,7 +1030,7 @@
     setTimeout(() => {
       toast.classList.add('toast-exit');
       setTimeout(() => toast.remove(), 250);
-    }, 2800);
+    }, 3200);
   }
 
   function escapeHtml(str) {

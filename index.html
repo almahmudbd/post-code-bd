@@ -119,9 +119,19 @@
   <!-- Stylesheet -->
   <link rel="stylesheet" href="src/css/style.css">
 
-  <!-- Favicon / App Icon (SVG Data URI) -->
-  <link rel="icon" type="image/svg+xml"
-    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23059669'/%3E%3Ccircle cx='22' cy='10' r='5' fill='%23e11d48'/%3E%3Cpath d='M8 12h10M8 16h16M8 20h12' stroke='%23ffffff' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E">
+  <!-- Web App Manifest -->
+  <link rel="manifest" href="manifest.webmanifest">
+
+  <!-- PWA & Mobile Meta Tags -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="PostCode-BD">
+
+  <!-- Favicon & PWA App Icons -->
+  <link rel="icon" type="image/svg+xml" href="icons/icon.svg">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
 </head>
 
 <body>
@@ -143,7 +153,23 @@
         </div>
       </a>
 
+      <!-- Offline Indicator Pill -->
+      <div id="offlineIndicator" class="offline-indicator-badge" style="display: none;" title="Offline Mode Active">
+        <span class="offline-indicator-dot"></span>
+        <span class="offline-indicator-text">Offline</span>
+      </div>
+
       <div class="header-actions">
+        <!-- Install PWA Button -->
+        <button id="pwaInstallBtn" class="btn-install" title="Install PostCode-BD App / অ্যাপ ইনস্টল করুন" aria-label="Install App" style="display: none;">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+            <polyline points="7 10 12 15 17 10" />
+            <line x1="12" y1="15" x2="12" y2="3" />
+          </svg>
+          <span class="btn-install-text">Install App</span>
+        </button>
+
         <!-- Favorites Button -->
         <button id="favToggleBtn" class="btn-icon" title="View Saved Post Codes" aria-label="Favorites">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -181,7 +207,7 @@
             </svg>
           </span>
           <input type="search" id="searchInput" class="search-input"
-            placeholder="Search district, thana, post office or 4-digit code (e.g. Kishoreganj, মিরপুর, 1200)..."
+            placeholder="Search district, thana, post office (Shortcut press / to search)"
             autocomplete="off" spellcheck="false" />
           <button id="searchClearBtn" class="search-clear-btn" title="Clear search" aria-label="Clear search">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
@@ -189,10 +215,6 @@
               <line x1="6" y1="6" x2="18" y2="18" />
             </svg>
           </button>
-        </div>
-
-        <div class="search-shortcut-hint">
-          Keyboard Shortcut: Press <kbd>/</kbd> to search
         </div>
 
         <!-- Division Pills under search box -->

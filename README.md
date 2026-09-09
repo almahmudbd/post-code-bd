@@ -11,6 +11,7 @@ A fast, lightweight, and modern web application to search and discover Banglades
 ## ✨ Features
 
 - **⚡ Instant Bilingual Search:** Search across districts, thanas, post offices, or 4-digit codes using either English or Bengali (with automatic digit conversion: `1200` ⇄ `১২০০`).
+- **📲 100% Offline Capable & PWA:** Installable Progressive Web App with dedicated Service Worker caching. Works smoothly with zero internet connection once loaded.
 - **📍 Complete Coverage:** 8 divisions, 64 districts, 1,389+ post offices plus optional branch offices (+858 EDBO).
 - **🎨 District Card Export:** Generate and download high-resolution PNG summary cards for any district or copy formatted lists with one click.
 - **📱 Responsive & Accessible:** Clean vanilla CSS design, light/dark mode, keyboard shortcut (`/` to focus search), and mobile-friendly layouts (grid & list views).

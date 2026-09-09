@@ -1,0 +1,89 @@
+{
+  "name": "Bangladesh Postal Codes Directory | পোস্ট কোড",
+  "short_name": "PostCode-BD",
+  "description": "Fast, bilingual Bangladesh Postal Code directory across 64 districts & 1,389+ post offices. Works 100% offline.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0f172a",
+  "theme_color": "#0284c7",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": [
+    "utilities",
+    "reference",
+    "productivity"
+  ],
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Dhaka Post Codes",
+      "short_name": "Dhaka",
+      "description": "Quick view of all postal codes in Dhaka district",
+      "url": "/?district=Dhaka",
+      "icons": [
+        {
+          "src": "/icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Chittagong Post Codes",
+      "short_name": "Chittagong",
+      "description": "Quick view of all postal codes in Chittagong district",
+      "url": "/?district=Chittagong",
+      "icons": [
+        {
+          "src": "/icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Contact & Disclaimer",
+      "short_name": "Contact",
+      "description": "Contact info and disclaimer",
+      "url": "/contact",
+      "icons": [
+        {
+          "src": "/icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}

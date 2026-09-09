@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#047857" />
+      <stop offset="50%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#0d9488" />
+    </linearGradient>
+    <linearGradient id="sunGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f43f5e" />
+      <stop offset="100%" stop-color="#e11d48" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#f1f5f9" stop-opacity="0.90" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#000000" flood-opacity="0.35" />
+    </filter>
+    <filter id="sunShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#e11d48" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+
+  <!-- Subtle grid / postal background lines -->
+  <g opacity="0.08" stroke="#ffffff" stroke-width="2">
+    <line x1="0" y1="128" x2="512" y2="128" />
+    <line x1="0" y1="256" x2="512" y2="256" />
+    <line x1="0" y1="384" x2="512" y2="384" />
+    <line x1="128" y1="0" x2="128" y2="512" />
+    <line x1="256" y1="0" x2="256" y2="512" />
+    <line x1="384" y1="0" x2="384" y2="512" />
+  </g>
+
+  <!-- Red Sun (BD Flag tribute) -->
+  <circle cx="360" cy="155" r="76" fill="url(#sunGrad)" filter="url(#sunShadow)" />
+
+  <!-- Envelope / Postal Mail Card with shadow -->
+  <g filter="url(#shadow)">
+    <!-- Base card -->
+    <rect x="76" y="170" width="360" height="235" rx="32" fill="url(#cardGrad)" />
+    
+    <!-- Postal lines on letter -->
+    <rect x="116" y="220" width="130" height="14" rx="7" fill="#0284c7" />
+    <rect x="116" y="250" width="170" height="12" rx="6" fill="#94a3b8" />
+    <rect x="116" y="276" width="140" height="12" rx="6" fill="#cbd5e1" />
+    
+    <!-- Post code stamp badge -->
+    <rect x="330" y="205" width="70" height="85" rx="10" fill="#f8fafc" stroke="#e2e8f0" stroke-width="3" stroke-dasharray="6,4" />
+    <text x="365" y="245" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="800" fill="#e11d48" text-anchor="middle">POST</text>
+    <text x="365" y="270" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700" fill="#059669" text-anchor="middle">BD</text>
+    
+    <!-- Post code pin / digits strip -->
+    <rect x="116" y="325" width="280" height="48" rx="14" fill="#0f172a" />
+    <!-- Pin Icon -->
+    <path d="M142 340 c-5.5 0 -10 4.5 -10 10 c0 7 10 16 10 16 s10 -9 10 -16 c0 -5.5 -4.5 -10 -10 -10 z" fill="#38bdf8" />
+    <circle cx="142" cy="350" r="3.5" fill="#0f172a" />
+    <!-- Digit display -->
+    <text x="270" y="358" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="22" font-weight="800" letter-spacing="6" fill="#38bdf8" text-anchor="middle">1 2 0 7</text>
+  </g>
+</svg>
