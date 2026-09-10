@@ -1,0 +1,222 @@
+[
+  {
+    "branchId": "branch_5",
+    "branchEn": "Ati",
+    "branchThana": "কেরানীগঞ্জ (Keranigonj)",
+    "district": "Dhaka",
+    "matchedMainBn": "আটি",
+    "matchedMainThana": "কেরানীগঞ্জ",
+    "postCode": "1312",
+    "matchType": "exact_phonetic"
+  },
+  {
+    "branchId": "branch_24",
+    "branchEn": "Khalpar",
+    "branchThana": "নবাবগঞ্জ (Nawabgonj)",
+    "district": "Dhaka",
+    "matchedMainBn": "খালপাড়",
+    "matchedMainThana": "নবাবগঞ্জ",
+    "postCode": "1324",
+    "matchType": "exact_phonetic"
+  },
+  {
+    "branchId": "branch_25",
+    "branchEn": "Agla",
+    "branchThana": "নবাবগঞ্জ (Nawabgonj)",
+    "district": "Dhaka",
+    "matchedMainBn": "আগলা",
+    "matchedMainThana": "নবাবগঞ্জ",
+    "postCode": "1323",
+    "matchType": "exact_phonetic"
+  },
+  {
+    "branchId": "branch_52",
+    "branchEn": "Narisha",
+    "branchThana": "দোহার (Joypara (Dohar))",
+    "district": "Dhaka",
+    "matchedMainBn": "নারিশা",
+    "matchedMainThana": "দোহার",
+    "postCode": "1332",
+    "matchType": "exact_phonetic"
+  },
+  {
+    "branchId": "branch_60",
+    "branchEn": "Amin Bazar",
+    "branchThana": "সাভার (Savar)",
+    "district": "Dhaka",
+    "matchedMainBn": "আমিন বাজার",
+    "matchedMainThana": "সাভার",
+    "postCode": "1348",
+    "matchType": "exact_phonetic"
+  },
+  {
+    "branchId": "branch_61",
+    "branchEn": "Rajfulbariya",
+    "branchThana": "সাভার (Savar)",
+    "district": "Dhaka",
+    "matchedMainBn": "রাজফুলবাড়ীয়া",
+    "matchedMainThana": "সাভার",
+    "postCode": "1347",
+    "matchType": "exact_phonetic"
+  },
+  {
+    "branchId": "branch_148",
+    "branchEn": "Dhuptara",
+    "branchThana": "আড়াইহাজার (Arhaihazar)",
+    "district": "Narayanganj",
+    "matchedMainBn": "দুপ্তারা",
+    "matchedMainThana": "আড়াইহাজার",
+    "postCode": "1460",
+    "matchType": "exact_phonetic"
+  },
+  {
+    "branchId": "branch_156",
+    "branchEn": "Vulta",
+    "branchThana": "রূপগঞ্জ (Rupgonj)",
+    "district": "Narayanganj",
+    "matchedMainBn": "ভুলতা",
+    "matchedMainThana": "রূপগঞ্জ",
+    "postCode": "1462",
+    "matchType": "exact_phonetic"
+  },
+  {
+    "branchId": "branch_165",
+    "branchEn": "Katakhali",
+    "branchThana": "সদর (Sadar)",
+    "district": "Munshiganj",
+    "matchedMainBn": "কাঠাখালি",
+    "matchedMainThana": "মুন্সীগঞ্জ সদর",
+    "postCode": "1503",
+    "matchType": "exact_phonetic"
+  },
+  {
+    "branchId": "branch_186",
+    "branchEn": "Hosendi",
+    "branchThana": "গজারিয়া (Gazaria)",
+    "district": "Munshiganj",
+    "matchedMainBn": "হোসেন্দি",
+    "matchedMainThana": "গজারিয়া",
+    "postCode": "1511",
+    "matchType": "substring_phonetic_same_thana"
+  },
+  {
+    "branchId": "branch_199",
+    "branchEn": "Hasail",
+    "branchThana": "টঙ্গীবাড়ী (Tongibari)",
+    "district": "Munshiganj",
+    "matchedMainBn": "হাসাইল",
+    "matchedMainThana": "টাংগিবাড়ি",
+    "postCode": "1524",
+    "matchType": "exact_phonetic"
+  },
+  {
+    "branchId": "branch_200",
+    "branchEn": "Pura",
+    "branchThana": "টঙ্গীবাড়ী (Tongibari)",
+    "district": "Munshiganj",
+    "matchedMainBn": "পুরা",
+    "matchedMainThana": "টাংগিবাড়ি",
+    "postCode": "1527",
+    "matchType": "exact_phonetic"
+  },
+  {
+    "branchId": "branch_222",
+    "branchEn": "Haridia",
+    "branchThana": "লৌহজং (Louhajong)",
+    "district": "Munshiganj",
+    "matchedMainBn": "হারিদিয়া",
+    "matchedMainThana": "লৌহজং",
+    "postCode": "1333",
+    "matchType": "exact_phonetic"
+  },
+  {
+    "branchId": "branch_268",
+    "branchEn": "Baghra",
+    "branchThana": "শ্রীনগর (Sreenagar)",
+    "district": "Munshiganj",
+    "matchedMainBn": "বাঘড়া",
+    "matchedMainThana": "শ্রীনগর",
+    "postCode": "1557",
+    "matchType": "exact_phonetic"
+  },
+  {
+    "branchId": "branch_351",
+    "branchEn": "Bazar Hasnabad",
+    "branchThana": "রায়পুরা (Raipura)",
+    "district": "Narsingdi",
+    "matchedMainBn": "বাজার হাসনাবাদ",
+    "matchedMainThana": "রায়পুর",
+    "postCode": "1631",
+    "matchType": "exact_phonetic"
+  },
+  {
+    "branchId": "branch_434",
+    "branchEn": "Pubail",
+    "branchThana": "গাজীপুর সদর (Gazipur)",
+    "district": "Gazipur",
+    "matchedMainBn": "পুবাইল",
+    "matchedMainThana": "কালীগঞ্জ",
+    "postCode": "1721",
+    "matchType": "exact_phonetic"
+  },
+  {
+    "branchId": "branch_569",
+    "branchEn": "Teota",
+    "branchThana": "সদর (Sadar)",
+    "district": "Manikganj",
+    "matchedMainBn": "তেওতা",
+    "matchedMainThana": "শিবালয়",
+    "postCode": "1852",
+    "matchType": "exact_phonetic"
+  },
+  {
+    "branchId": "branch_610",
+    "branchEn": "Bayra",
+    "branchThana": "সদর (Sadar)",
+    "district": "Manikganj",
+    "matchedMainBn": "বায়রা",
+    "matchedMainThana": "সিংগাইর",
+    "postCode": "1821",
+    "matchType": "exact_phonetic"
+  },
+  {
+    "branchId": "branch_649",
+    "branchEn": "Mirzapur Cadet College",
+    "branchThana": "মির্জাপুর (Mirzapur)",
+    "district": "Tangail",
+    "matchedMainBn": "মির্জাপুর",
+    "matchedMainThana": "মির্জাপুর",
+    "postCode": "1940",
+    "matchType": "substring_phonetic_same_thana"
+  },
+  {
+    "branchId": "branch_659",
+    "branchEn": "Nagbari",
+    "branchThana": "কালিহাতী (Kalihati)",
+    "district": "Tangail",
+    "matchedMainBn": "নাগবাড়ি",
+    "matchedMainThana": "কালিহাতী",
+    "postCode": "1972",
+    "matchType": "exact_phonetic"
+  },
+  {
+    "branchId": "branch_730",
+    "branchEn": "Maijhati EDSO",
+    "branchThana": "পাকুন্দিয়া (Pakundi)",
+    "district": "Kishoreganj",
+    "matchedMainBn": "মাইজহাটি",
+    "matchedMainThana": "পাকুন্দিয়া",
+    "postCode": "2302",
+    "matchType": "substring_phonetic_same_thana"
+  },
+  {
+    "branchId": "branch_784",
+    "branchEn": "Shaldigha",
+    "branchThana": "খালিয়াজুরী (Khaliajuri)",
+    "district": "Netrokona",
+    "matchedMainBn": "শালদিঘা",
+    "matchedMainThana": "খালিয়াজুরী",
+    "postCode": "2462",
+    "matchType": "exact_phonetic"
+  }
+]

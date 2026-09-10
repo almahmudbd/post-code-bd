@@ -1,0 +1,1140 @@
+
+# =========================================================
+# DISTRICT: Dhaka (Branches: 110, Main: 52)
+# =========================================================
+
+## Main Offices in Dhaka:
+- [ID: 1] ডেমরা | Thana: ডেমরা | Code: 1360
+- [ID: 2] মাতুয়াইল | Thana: কদমতলী | Code: 1362
+- [ID: 3] দনিয়া | Thana: যাত্রাবাড়ী | Code: 1236
+- [ID: 4] সারুলিয়া | Thana: ডেমরা | Code: 1361
+- [ID: 5] ঢাকা সেনানিবাস TSO | Thana: ঢাকা সেনানিবাস | Code: 1206
+- [ID: 6] ধামরাই | Thana: ধামরাই | Code: 1350
+- [ID: 7] কমলপুর | Thana: ধামরাই | Code: 1351
+- [ID: 8] জিগাতলা TSO | Thana: ধানমন্ডি | Code: 1209
+- [ID: 9] বনানী TSO | Thana: বনানী | Code: 1213
+- [ID: 10] গুলশান মডেল টাউন | Thana: গুলশান | Code: 1212
+- [ID: 11] গেন্ডারিয়া TSO | Thana: যাত্রাবাড়ি | Code: 1204
+- [ID: 12] জয়পাড়া | Thana: দোহার | Code: 1330
+- [ID: 13] নারিশা | Thana: দোহার | Code: 1332
+- [ID: 14] পালামগঞ্জ | Thana: দোহার | Code: 1331
+- [ID: 15] আটি | Thana: কেরানীগঞ্জ | Code: 1312
+- [ID: 16] ঢাকা পাট কল | Thana: কেরানীগঞ্জ | Code: 1311
+- [ID: 17] কালাটিয়া | Thana: কেরানীগঞ্জ | Code: 1313
+- [ID: 18] কেরানীগঞ্জ | Thana: কেরানীগঞ্জ | Code: 1310
+- [ID: 19] খিলগাঁও TSO | Thana: খিলগাঁও | Code: 1219
+- [ID: 20] খিলক্ষেত TSO | Thana: খিলক্ষেত | Code: 1229
+- [ID: 21] পোস্তা TSO | Thana: লালবাগ | Code: 1211
+- [ID: 22] মিরপুর TSO | Thana: মিরপুর | Code: 1216
+- [ID: 23] মোহাম্মদপুর হাউজিং | Thana: মোহাম্মদপুর | Code: 1207
+- [ID: 24] সংসদ ভবন TSO | Thana: শের এ বাংলা নগর | Code: 1225
+- [ID: 25] বঙ্গভবন TSO | Thana: মতিঝিল | Code: 1222
+- [ID: 26] দিলকুশা TSO | Thana: মতিঝিল | Code: 1223
+- [ID: 27] আগলা | Thana: নবাবগঞ্জ | Code: 1323
+- [ID: 28] চুরাইন | Thana: নবাবগঞ্জ | Code: 1325
+- [ID: 29] দাউদপুর | Thana: নবাবগঞ্জ | Code: 1322
+- [ID: 30] হাসনাবাদ | Thana: নবাবগঞ্জ | Code: 1321
+- [ID: 31] খালপাড় | Thana: নবাবগঞ্জ | Code: 1324
+- [ID: 32] নবাবগঞ্জ | Thana: নবাবগঞ্জ | Code: 1320
+- [ID: 33] নিউমার্কেট TSO | Thana: নিউমার্কেট | Code: 1205
+- [ID: 34] ঢাকা জিপিও | Thana: পল্টন | Code: 1000
+- [ID: 35] শান্তিনগর TSO | Thana: রমনা | Code: 1217
+- [ID: 36] বাসাবো TSO | Thana: সবুজবাগ | Code: 1214
+- [ID: 37] আমিন বাজার | Thana: সাভার | Code: 1348
+- [ID: 38] ডেইরি ফার্ম | Thana: সাভার | Code: 1341
+- [ID: 39] ইপিজেড | Thana: সাভার | Code: 1349
+- [ID: 40] জাহাঙ্গীরনগর বিশ্ববিদ্যালয় | Thana: সাভার | Code: 1342
+- [ID: 41] কাশেম কটন মিলস | Thana: সাভার | Code: 1346
+- [ID: 42] রাজফুলবাড়ীয়া | Thana: সাভার | Code: 1347
+- [ID: 43] সাভার | Thana: সাভার | Code: 1340
+- [ID: 44] সাভার সেনানিবাস | Thana: সাভার | Code: 1344
+- [ID: 45] সাভার পিএটিসি | Thana: সাভার | Code: 1343
+- [ID: 46] শিমুলিয়া | Thana: সাভার | Code: 1345
+- [ID: 47] ঢাকা সদর HO | Thana: সূত্রাপুর | Code: 1100
+- [ID: 48] গেন্ডারিয়া TSO | Thana: সূত্রাপুর | Code: 1204
+- [ID: 49] ওয়ারী TSO | Thana: সূত্রাপুর | Code: 1203
+- [ID: 50] তেজগাঁও TSO | Thana: তেজগাঁও | Code: 1215
+- [ID: 51] ঢাকা পলিটেকনিক | Thana: তেজগাঁও শিল্প এলাকা | Code: 1208
+- [ID: 52] উত্তরা মডেল টাউন TSO | Thana: উত্তরা | Code: 1230
+
+## Branch Offices in Dhaka:
+- [ID: branch_1] Ashrafabad | Thana: কামরাঙ্গীরচর
+- [ID: branch_2] Uttar Pangaon | Thana: কেরানীগঞ্জ
+- [ID: branch_3] Konda | Thana: কেরানীগঞ্জ
+- [ID: branch_4] Baktarchar | Thana: কেরানীগঞ্জ
+- [ID: branch_5] Ati | Thana: কেরানীগঞ্জ
+- [ID: branch_6] Talepur | Thana: কেরানীগঞ্জ
+- [ID: branch_7] Beuta | Thana: কেরানীগঞ্জ
+- [ID: branch_8] Baghoir | Thana: কেরানীগঞ্জ
+- [ID: branch_9] Paschimdi | Thana: কেরানীগঞ্জ
+- [ID: branch_10] Rahitpur | Thana: কেরানীগঞ্জ
+- [ID: branch_11] Brahammankirti | Thana: কেরানীগঞ্জ
+- [ID: branch_12] Rajabari | Thana: কেরানীগঞ্জ
+- [ID: branch_13] Shakta | Thana: কেরানীগঞ্জ
+- [ID: branch_14] Shyamlapur | Thana: কেরানীগঞ্জ
+- [ID: branch_15] Shuvadda | Thana: কেরানীগঞ্জ
+- [ID: branch_16] Sonakanda | Thana: কেরানীগঞ্জ
+- [ID: branch_17] Doleshor | Thana: কেরানীগঞ্জ
+- [ID: branch_18] Teghoria | Thana: কেরানীগঞ্জ
+- [ID: branch_19] Par Gandaria | Thana: কেরানীগঞ্জ
+- [ID: branch_20] Abdullapur | Thana: কেরানীগঞ্জ
+- [ID: branch_21] Itavara | Thana: কেরানীগঞ্জ
+- [ID: branch_22] Taranagar | Thana: কেরানীগঞ্জ
+- [ID: branch_23] Kharakandi | Thana: কেরানীগঞ্জ
+- [ID: branch_24] Khalpar | Thana: নবাবগঞ্জ
+- [ID: branch_25] Agla | Thana: নবাবগঞ্জ
+- [ID: branch_26] Kolakopa | Thana: নবাবগঞ্জ
+- [ID: branch_27] Gobindopur | Thana: নবাবগঞ্জ
+- [ID: branch_28] Galimpur | Thana: নবাবগঞ্জ
+- [ID: branch_29] Choto Box Nagar | Thana: নবাবগঞ্জ
+- [ID: branch_30] Jalalchar | Thana: নবাবগঞ্জ
+- [ID: branch_31] Paragram | Thana: নবাবগঞ্জ
+- [ID: branch_32] Braha | Thana: নবাবগঞ্জ
+- [ID: branch_33] Bardhanpara | Thana: নবাবগঞ্জ
+- [ID: branch_34] Mohabbatpur | Thana: নবাবগঞ্জ
+- [ID: branch_35] Mashail | Thana: নবাবগঞ্জ
+- [ID: branch_36] Sholla | Thana: নবাবগঞ্জ
+- [ID: branch_37] Kailail | Thana: নবাবগঞ্জ
+- [ID: branch_38] Aona | Thana: নবাবগঞ্জ
+- [ID: branch_39] Patiljhap | Thana: নবাবগঞ্জ
+- [ID: branch_40] Meleng | Thana: নবাবগঞ্জ
+- [ID: branch_41] Dakkhin Balukhondo | Thana: নবাবগঞ্জ
+- [ID: branch_42] Khanepur | Thana: নবাবগঞ্জ
+- [ID: branch_43] Dewtola | Thana: নবাবগঞ্জ
+- [ID: branch_44] Kuthuri | Thana: নবাবগঞ্জ
+- [ID: branch_45] Joykrishnapur | Thana: নবাবগঞ্জ
+- [ID: branch_46] Karpara | Thana: নবাবগঞ্জ
+- [ID: branch_47] Shikaripara | Thana: নবাবগঞ্জ
+- [ID: branch_48] Hat Baruakhali | Thana: নবাবগঞ্জ
+- [ID: branch_49] Tasulla Banglabazar | Thana: নবাবগঞ্জ
+- [ID: branch_50] Al-Amin Bazar | Thana: দোহার
+- [ID: branch_51] Harichandi | Thana: দোহার
+- [ID: branch_52] Narisha | Thana: দোহার
+- [ID: branch_53] Dohar | Thana: দোহার
+- [ID: branch_54] Meghula | Thana: দোহার
+- [ID: branch_55] Aorangabad | Thana: দোহার
+- [ID: branch_56] Kusumhati | Thana: দোহার
+- [ID: branch_57] Dokkhin Braha | Thana: দোহার
+- [ID: branch_58] Jamalchar | Thana: দোহার
+- [ID: branch_59] Vakurta | Thana: সাভার
+- [ID: branch_60] Amin Bazar | Thana: সাভার
+- [ID: branch_61] Rajfulbariya | Thana: সাভার
+- [ID: branch_62] Rajashon | Thana: সাভার
+- [ID: branch_63] Hemayetpur | Thana: সাভার
+- [ID: branch_64] Moshurikhola | Thana: সাভার
+- [ID: branch_65] Shobahanbagh | Thana: সাভার
+- [ID: branch_66] Nayarhat | Thana: সাভার
+- [ID: branch_67] Biruliya | Thana: সাভার
+- [ID: branch_68] Nagarkonda | Thana: সাভার
+- [ID: branch_69] Ashuliya | Thana: সাভার
+- [ID: branch_70] Zirabo | Thana: সাভার
+- [ID: branch_71] CRP Chapain | Thana: সাভার
+- [ID: branch_72] Mirzanagar | Thana: সাভার
+- [ID: branch_73] Senwaliya | Thana: সাভার
+- [ID: branch_74] Noihati Bazar | Thana: সাভার
+- [ID: branch_75] Karimpur | Thana: সাভার
+- [ID: branch_76] Uttor Gazirchat | Thana: সাভার
+- [ID: branch_77] Dhamsona | Thana: সাভার
+- [ID: branch_78] Balia | Thana: ধামরাই
+- [ID: branch_79] Amta | Thana: ধামরাই
+- [ID: branch_80] Dimukha | Thana: ধামরাই
+- [ID: branch_81] Kalampur | Thana: ধামরাই
+- [ID: branch_82] Barigaon | Thana: ধামরাই
+- [ID: branch_83] Toperbari | Thana: ধামরাই
+- [ID: branch_84] Suapur | Thana: ধামরাই
+- [ID: branch_85] Deldha | Thana: ধামরাই
+- [ID: branch_86] Shoilain | Thana: ধামরাই
+- [ID: branch_87] Jadabpur | Thana: ধামরাই
+- [ID: branch_88] Berosh | Thana: ধামরাই
+- [ID: branch_89] Bannal | Thana: ধামরাই
+- [ID: branch_90] Mangalbari | Thana: ধামরাই
+- [ID: branch_91] Nannar | Thana: ধামরাই
+- [ID: branch_92] Jalsin | Thana: ধামরাই
+- [ID: branch_93] Rowail | Thana: ধামরাই
+- [ID: branch_94] Kathaliya Nabogram | Thana: ধামরাই
+- [ID: branch_95] Sanora | Thana: ধামরাই
+- [ID: branch_96] Nowga Bazar | Thana: ধামরাই
+- [ID: branch_97] Gangutiya | Thana: ধামরাই
+- [ID: branch_98] Jalsha | Thana: ধামরাই
+- [ID: branch_99] Sahabelishwar | Thana: ধামরাই
+- [ID: branch_100] Chowhatto | Thana: ধামরাই
+- [ID: branch_101] Rajapur | Thana: ধামরাই
+- [ID: branch_102] Purbagram | Thana: ডেমরা
+- [ID: branch_103] Tarab | Thana: ডেমরা
+- [ID: branch_104] Jatramura | Thana: ডেমরা
+- [ID: branch_105] Paradgair | Thana: ডেমরা
+- [ID: branch_106] Sanarpar | Thana: ডেমরা
+- [ID: branch_107] Matuail SO | Thana: কদমতলী
+- [ID: branch_108] Tushardhara | Thana: কদমতলী
+- [ID: branch_109] Merajnagar | Thana: কদমতলী
+- [ID: branch_110] Habibnagar | Thana: কদমতলী
+
+# =========================================================
+# DISTRICT: Narayanganj (Branches: 54, Main: 22)
+# =========================================================
+
+## Main Offices in Narayanganj:
+- [ID: 199] আড়াইহাজার | Thana: আড়াইহাজার | Code: 1450
+- [ID: 200] দুপ্তারা | Thana: আড়াইহাজার | Code: 1460
+- [ID: 201] গোপালদি | Thana: আড়াইহাজার | Code: 1451
+- [ID: 202] বারো নগর | Thana: বাইদ্দের বাজার | Code: 1441
+- [ID: 203] বারোদি | Thana: বাইদ্দের বাজার | Code: 1442
+- [ID: 204] বাইদ্দের বাজার | Thana: বাইদ্দের বাজার | Code: 1440
+- [ID: 205] বন্দর | Thana: বন্দর | Code: 1410
+- [ID: 206] বিআইডিএস | Thana: বন্দর | Code: 1413
+- [ID: 207] ডি.সি মিলস | Thana: বন্দর | Code: 1411
+- [ID: 208] মদনগঞ্জ | Thana: বন্দর | Code: 1414
+- [ID: 209] নবীগঞ্জ | Thana: বন্দর | Code: 1412
+- [ID: 210] ফতুল্লা বাজার | Thana: ফতুল্লা | Code: 1421
+- [ID: 211] ফতুল্লা | Thana: ফতুল্লা | Code: 1420
+- [ID: 212] নারায়ণগঞ্জ সদর | Thana: নারায়ণগঞ্জ সদর | Code: 1400
+- [ID: 213] ভুলতা | Thana: রূপগঞ্জ | Code: 1462
+- [ID: 214] কাঞ্চন | Thana: রূপগঞ্জ | Code: 1461
+- [ID: 215] মুরাপাড়া | Thana: রূপগঞ্জ | Code: 1464
+- [ID: 216] নগরি | Thana: রূপগঞ্জ | Code: 1463
+- [ID: 217] রূপগঞ্জ | Thana: রূপগঞ্জ | Code: 1460
+- [ID: 218] আদামজীনগর | Thana: সিদ্ধিরগঞ্জ | Code: 1431
+- [ID: 219] LN মিলস | Thana: সিদ্ধিরগঞ্জ | Code: 1432
+- [ID: 220] সিদ্ধিরগঞ্জ | Thana: সিদ্ধিরগঞ্জ | Code: 1430
+
+## Branch Offices in Narayanganj:
+- [ID: branch_111] Barabo | Thana: সদর
+- [ID: branch_112] Madanpur | Thana: সদর
+- [ID: branch_113] Lakkhankhola | Thana: সদর
+- [ID: branch_114] Sabdibazar | Thana: সদর
+- [ID: branch_115] Mogolergaon | Thana: সদর
+- [ID: branch_116] Hosenpur | Thana: সদর
+- [ID: branch_117] Barpara | Thana: সদর
+- [ID: branch_118] Monarbari | Thana: সদর
+- [ID: branch_119] Nabiganj | Thana: বন্দর
+- [ID: branch_120] Puran Bandar | Thana: বন্দর
+- [ID: branch_121] Jalkuri | Thana: ফতুল্লা
+- [ID: branch_122] Vuighar | Thana: ফতুল্লা
+- [ID: branch_123] Dapa Idrikpur | Thana: ফতুল্লা
+- [ID: branch_124] Kutubpur | Thana: ফতুল্লা
+- [ID: branch_125] Anayetnagar | Thana: ফতুল্লা
+- [ID: branch_126] Char Baktabali | Thana: ফতুল্লা
+- [ID: branch_127] Alirtek | Thana: ফতুল্লা
+- [ID: branch_128] Kachpur | Thana: সিদ্ধিরগঞ্জ
+- [ID: branch_129] Mizmizi | Thana: সিদ্ধিরগঞ্জ
+- [ID: branch_130] Siddirgonj Bazar | Thana: সিদ্ধিরগঞ্জ
+- [ID: branch_131] Baronagar | Thana: সোনারগাঁও
+- [ID: branch_132] Bardi | Thana: সোনারগাঁও
+- [ID: branch_133] Highshadi | Thana: সোনারগাঁও
+- [ID: branch_134] Lakshibardi | Thana: সোনারগাঁও
+- [ID: branch_135] Dhandi Bazar | Thana: সোনারগাঁও
+- [ID: branch_136] Saheb Bazar | Thana: সোনারগাঁও
+- [ID: branch_137] Bangla Bazar | Thana: সোনারগাঁও
+- [ID: branch_138] Ananda Bazar | Thana: সোনারগাঁও
+- [ID: branch_139] Samomandi | Thana: সোনারগাঁও
+- [ID: branch_140] Aminpur | Thana: সোনারগাঁও
+- [ID: branch_141] New Town | Thana: সোনারগাঁও
+- [ID: branch_142] Alipura | Thana: সোনারগাঁও
+- [ID: branch_143] Nayanabad | Thana: সোনারগাঁও
+- [ID: branch_144] Mohajampur | Thana: সোনারগাঁও
+- [ID: branch_145] Kasem Nagar | Thana: সোনারগাঁও
+- [ID: branch_146] Kala Paharia | Thana: আড়াইহাজার
+- [ID: branch_147] Hamshadi | Thana: আড়াইহাজার
+- [ID: branch_148] Dhuptara | Thana: আড়াইহাজার
+- [ID: branch_149] Pachrukhi | Thana: আড়াইহাজার
+- [ID: branch_150] Sultansadi | Thana: আড়াইহাজার
+- [ID: branch_151] Chaitonnokanda | Thana: আড়াইহাজার
+- [ID: branch_152] Sombupura | Thana: আড়াইহাজার
+- [ID: branch_153] Fausha | Thana: আড়াইহাজার
+- [ID: branch_154] Sreenibasdi | Thana: আড়াইহাজার
+- [ID: branch_155] Chardigaldi | Thana: আড়াইহাজার
+- [ID: branch_156] Vulta | Thana: রূপগঞ্জ
+- [ID: branch_157] Perabo | Thana: রূপগঞ্জ
+- [ID: branch_158] Baliapara | Thana: রূপগঞ্জ
+- [ID: branch_159] Nagarpara | Thana: রূপগঞ্জ
+- [ID: branch_160] Parshinagar | Thana: রূপগঞ্জ
+- [ID: branch_161] Masumabad | Thana: রূপগঞ্জ
+- [ID: branch_162] Gobindapur | Thana: রূপগঞ্জ
+- [ID: branch_163] Brahammonkhali | Thana: রূপগঞ্জ
+- [ID: branch_164] Rupshi | Thana: রূপগঞ্জ
+
+# =========================================================
+# DISTRICT: Munshiganj (Branches: 122, Main: 37)
+# =========================================================
+
+## Main Offices in Munshiganj:
+- [ID: 163] গজারিয়া | Thana: গজারিয়া | Code: 1510
+- [ID: 164] হোসেন্দি | Thana: গজারিয়া | Code: 1511
+- [ID: 165] রসুলপুর | Thana: গজারিয়া | Code: 1512
+- [ID: 166] গৌড়গঞ্জ | Thana: লৌহজং | Code: 1534
+- [ID: 167] হলদিয়া তাই | Thana: লৌহজং | Code: 1532
+- [ID: 168] হারিদিয়া | Thana: লৌহজং | Code: 1333
+- [ID: 169] হারিদিয়া DESO | Thana: লৌহজং | Code: 1533
+- [ID: 170] করহাতি | Thana: লৌহজং | Code: 1531
+- [ID: 171] লৌহজং | Thana: লৌহজং | Code: 1530
+- [ID: 172] মেদিনী মণ্ডল | Thana: লৌহজং | Code: 1335
+- [ID: 173] কাঠাখালি | Thana: মুন্সীগঞ্জ সদর | Code: 1503
+- [ID: 174] মিরকাদিম | Thana: মুন্সীগঞ্জ সদর | Code: 1502
+- [ID: 175] মুন্সীগঞ্জ সদর | Thana: মুন্সীগঞ্জ সদর | Code: 1500
+- [ID: 176] রিকাবিবাজার | Thana: মুন্সীগঞ্জ সদর | Code: 1501
+- [ID: 177] ইছাপুর | Thana: সিরাজদিখান | Code: 1542
+- [ID: 178] কোলা | Thana: সিরাজদিখান | Code: 1541
+- [ID: 179] মালখানগর | Thana: সিরাজদিখান | Code: 1543
+- [ID: 180] শেখের নগর | Thana: সিরাজদিখান | Code: 1544
+- [ID: 181] সিরাজদিখান | Thana: সিরাজদিখান | Code: 1540
+- [ID: 182] বাঘড়া | Thana: শ্রীনগর | Code: 1557
+- [ID: 183] বারিখাল | Thana: শ্রীনগর | Code: 1551
+- [ID: 184] ভাগ্যকুল | Thana: শ্রীনগর | Code: 1558
+- [ID: 185] হাশারা | Thana: শ্রীনগর | Code: 1553
+- [ID: 186] কলাপাড়া | Thana: শ্রীনগর | Code: 1554
+- [ID: 187] কুমারভগ | Thana: শ্রীনগর | Code: 1555
+- [ID: 188] মাজপাড়া | Thana: শ্রীনগর | Code: 1552
+- [ID: 189] শ্রীনগর | Thana: শ্রীনগর | Code: 1550
+- [ID: 190] ভাগ্যকুল তাই | Thana: শ্রীনগর | Code: 1556
+- [ID: 191] বিজরাজুগিনি | Thana: টাংগিবাড়ি | Code: 1523
+- [ID: 192] বালিগাও | Thana: টাংগিবাড়ি | Code: 1522
+- [ID: 193] বেটকারহাট | Thana: টাংগিবাড়ি | Code: 1521
+- [ID: 194] দিঘিরপাড় | Thana: টাংগিবাড়ি | Code: 1525
+- [ID: 195] হাসাইল | Thana: টাংগিবাড়ি | Code: 1524
+- [ID: 196] পুরা | Thana: টাংগিবাড়ি | Code: 1527
+- [ID: 197] পুরা EDSO | Thana: টাংগিবাড়ি | Code: 1526
+- [ID: 198] টাংগিবাড়ি | Thana: টাংগিবাড়ি | Code: 1520
+- [ID: 1358] মেদিনী মণ্ডল | Thana: লৌহজং | Code: 1535
+
+## Branch Offices in Munshiganj:
+- [ID: branch_165] Katakhali | Thana: সদর
+- [ID: branch_166] Panchasar | Thana: সদর
+- [ID: branch_167] Ramjanbeg | Thana: সদর
+- [ID: branch_168] TB Hoghla | Thana: সদর
+- [ID: branch_169] Jazira Sayedpur | Thana: সদর
+- [ID: branch_170] Vasanchar | Thana: সদর
+- [ID: branch_171] Champatala | Thana: সদর
+- [ID: branch_172] Char Dumoria | Thana: সদর
+- [ID: branch_173] Kewar | Thana: সদর
+- [ID: branch_174] Gashi Pukurpar | Thana: সদর
+- [ID: branch_175] Makohati | Thana: সদর
+- [ID: branch_176] Char Kishoreganj | Thana: সদর
+- [ID: branch_177] Coartgaon | Thana: সদর
+- [ID: branch_178] Moheshpur | Thana: সদর
+- [ID: branch_179] Banial Vokailash | Thana: সদর
+- [ID: branch_180] Char Siloi | Thana: সদর
+- [ID: branch_181] Sokhabaspur | Thana: সদর
+- [ID: branch_182] Kalir Atpara | Thana: সদর
+- [ID: branch_183] Ramsing | Thana: সদর
+- [ID: branch_184] Rampal | Thana: সদর
+- [ID: branch_185] Rasulpur | Thana: গজারিয়া
+- [ID: branch_186] Hosendi | Thana: গজারিয়া
+- [ID: branch_187] Voberchar | Thana: গজারিয়া
+- [ID: branch_188] BK Raypura | Thana: গজারিয়া
+- [ID: branch_189] Baosia | Thana: গজারিয়া
+- [ID: branch_190] Char Bolaki | Thana: গজারিয়া
+- [ID: branch_191] Goagasia | Thana: গজারিয়া
+- [ID: branch_192] Hoglakandi | Thana: গজারিয়া
+- [ID: branch_193] Ishmandirchar | Thana: গজারিয়া
+- [ID: branch_194] Tengarchar | Thana: গজারিয়া
+- [ID: branch_195] Uttar Shapur | Thana: গজারিয়া
+- [ID: branch_196] Modda Vaterchar | Thana: গজারিয়া
+- [ID: branch_197] Puran Baosia | Thana: গজারিয়া
+- [ID: branch_198] Baligaon | Thana: টঙ্গীবাড়ী
+- [ID: branch_199] Hasail | Thana: টঙ্গীবাড়ী
+- [ID: branch_200] Pura | Thana: টঙ্গীবাড়ী
+- [ID: branch_201] Ariol | Thana: টঙ্গীবাড়ী
+- [ID: branch_202] Outshahi | Thana: টঙ্গীবাড়ী
+- [ID: branch_203] Dheepur | Thana: টঙ্গীবাড়ী
+- [ID: branch_204] Baloi | Thana: টঙ্গীবাড়ী
+- [ID: branch_205] Sonarong | Thana: টঙ্গীবাড়ী
+- [ID: branch_206] Rawothvogh | Thana: টঙ্গীবাড়ী
+- [ID: branch_207] Jashlong | Thana: টঙ্গীবাড়ী
+- [ID: branch_208] Porapara | Thana: টঙ্গীবাড়ী
+- [ID: branch_209] Sornagram | Thana: টঙ্গীবাড়ী
+- [ID: branch_210] Bagia | Thana: টঙ্গীবাড়ী
+- [ID: branch_211] Molchar | Thana: টঙ্গীবাড়ী
+- [ID: branch_212] Banari | Thana: টঙ্গীবাড়ী
+- [ID: branch_213] Nasongkar | Thana: টঙ্গীবাড়ী
+- [ID: branch_214] Pachgaon | Thana: টঙ্গীবাড়ী
+- [ID: branch_215] B Paikpara | Thana: টঙ্গীবাড়ী
+- [ID: branch_216] Abdullapur | Thana: টঙ্গীবাড়ী
+- [ID: branch_217] Hatkan | Thana: টঙ্গীবাড়ী
+- [ID: branch_218] Rahimganj | Thana: টঙ্গীবাড়ী
+- [ID: branch_219] Aldi Bazar | Thana: টঙ্গীবাড়ী
+- [ID: branch_220] Kaichail | Thana: টঙ্গীবাড়ী
+- [ID: branch_221] Gawraganj | Thana: লৌহজং
+- [ID: branch_222] Haridia | Thana: লৌহজং
+- [ID: branch_223] Korhati | Thana: লৌহজং
+- [ID: branch_224] Medinimondol | Thana: লৌহজং
+- [ID: branch_225] Nagerhat | Thana: লৌহজং
+- [ID: branch_226] Kalma | Thana: লৌহজং
+- [ID: branch_227] Vorakor | Thana: লৌহজং
+- [ID: branch_228] jaotia | Thana: লৌহজং
+- [ID: branch_229] Bejgaon | Thana: লৌহজং
+- [ID: branch_230] Voghdia | Thana: লৌহজং
+- [ID: branch_231] Gaodia | Thana: লৌহজং
+- [ID: branch_232] Konaksar | Thana: লৌহজং
+- [ID: branch_233] Kokotia | Thana: লৌহজং
+- [ID: branch_234] Bahor | Thana: লৌহজং
+- [ID: branch_235] Komarvogh | Thana: লৌহজং
+- [ID: branch_236] Beltoli | Thana: লৌহজং
+- [ID: branch_237] Dokkhin Charigaon | Thana: লৌহজং
+- [ID: branch_238] Bibondi | Thana: লৌহজং
+- [ID: branch_239] Bultoli | Thana: লৌহজং
+- [ID: branch_240] Paschim Nawpara | Thana: লৌহজং
+- [ID: branch_241] Khidirpara | Thana: লৌহজং
+- [ID: branch_242] Nawpara | Thana: লৌহজং
+- [ID: branch_243] Jasaldia | Thana: লৌহজং
+- [ID: branch_244] Brojenhati | Thana: সিরাজদিখান
+- [ID: branch_245] Kochiamora | Thana: সিরাজদিখান
+- [ID: branch_246] Latobdi | Thana: সিরাজদিখান
+- [ID: branch_247] Razdia | Thana: সিরাজদিখান
+- [ID: branch_248] Ramkrishnadi | Thana: সিরাজদিখান
+- [ID: branch_249] Rasunia | Thana: সিরাজদিখান
+- [ID: branch_250] Tolbasail | Thana: সিরাজদিখান
+- [ID: branch_251] Sikarpur Nimtola | Thana: সিরাজদিখান
+- [ID: branch_252] Chandandol | Thana: সিরাজদিখান
+- [ID: branch_253] Jainashar | Thana: সিরাজদিখান
+- [ID: branch_254] Kusumpur | Thana: সিরাজদিখান
+- [ID: branch_255] Shialdi | Thana: সিরাজদিখান
+- [ID: branch_256] Jazpur | Thana: সিরাজদিখান
+- [ID: branch_257] B Khilgaon | Thana: সিরাজদিখান
+- [ID: branch_258] B Moddhapara | Thana: সিরাজদিখান
+- [ID: branch_259] Khasmohal Balurchar | Thana: সিরাজদিখান
+- [ID: branch_260] Malpadia | Thana: সিরাজদিখান
+- [ID: branch_261] Paoldia | Thana: সিরাজদিখান
+- [ID: branch_262] Shimulia | Thana: সিরাজদিখান
+- [ID: branch_263] Chitracoat | Thana: সিরাজদিখান
+- [ID: branch_264] Pawshar | Thana: সিরাজদিখান
+- [ID: branch_265] Rajanagar | Thana: সিরাজদিখান
+- [ID: branch_266] Sayedpur | Thana: সিরাজদিখান
+- [ID: branch_267] Kolapara | Thana: শ্রীনগর
+- [ID: branch_268] Baghra | Thana: শ্রীনগর
+- [ID: branch_269] Maijpara | Thana: শ্রীনগর
+- [ID: branch_270] Rarikhal | Thana: শ্রীনগর
+- [ID: branch_271] Solaghar | Thana: শ্রীনগর
+- [ID: branch_272] Purbo Deovogh | Thana: শ্রীনগর
+- [ID: branch_273] Gadighat | Thana: শ্রীনগর
+- [ID: branch_274] Koykirton | Thana: শ্রীনগর
+- [ID: branch_275] Damla | Thana: শ্রীনগর
+- [ID: branch_276] Dokkhin Paiksha | Thana: শ্রীনগর
+- [ID: branch_277] Kazir Pagla | Thana: শ্রীনগর
+- [ID: branch_278] Dogachi | Thana: শ্রীনগর
+- [ID: branch_279] Atpara | Thana: শ্রীনগর
+- [ID: branch_280] Mojidpur | Thana: শ্রীনগর
+- [ID: branch_281] Rushdi | Thana: শ্রীনগর
+- [ID: branch_282] Tantar | Thana: শ্রীনগর
+- [ID: branch_283] Baroikhali | Thana: শ্রীনগর
+- [ID: branch_284] Katiapara | Thana: শ্রীনগর
+- [ID: branch_285] Kamargaon | Thana: শ্রীনগর
+- [ID: branch_286] Uttar Raypura | Thana: শ্রীনগর
+
+# =========================================================
+# DISTRICT: Narsingdi (Branches: 143, Main: 18)
+# =========================================================
+
+## Main Offices in Narsingdi:
+- [ID: 221] বেলাব | Thana: বেলাব | Code: 1640
+- [ID: 222] হাতিরদিয়া | Thana: মনোহরদি | Code: 1651
+- [ID: 223] কাটাবাড়িয়া | Thana: মনোহরদি | Code: 1652
+- [ID: 224] মনোহরদি | Thana: মনোহরদি | Code: 1650
+- [ID: 225] করিমপুর | Thana: নরসিংদী সদর | Code: 1605
+- [ID: 226] মাধবদী | Thana: নরসিংদী সদর | Code: 1604
+- [ID: 227] নরসিংদী কলেজ | Thana: নরসিংদী সদর | Code: 1602
+- [ID: 228] নরসিংদী সদর | Thana: নরসিংদী সদর | Code: 1600
+- [ID: 229] পাঁচদোনা | Thana: নরসিংদী সদর | Code: 1603
+- [ID: 230] UMC জুট মিলস | Thana: নরসিংদী সদর | Code: 1601
+- [ID: 231] চরসিন্ধুর | Thana: পলাশ | Code: 1612
+- [ID: 232] ঘোড়াশাল | Thana: পলাশ | Code: 1613
+- [ID: 233] ঘোড়াশাল ইউরিয়া ফ্যাক্টুরি | Thana: পলাশ | Code: 1611
+- [ID: 234] পলাশ | Thana: পলাশ | Code: 1610
+- [ID: 235] বাজার হাসনাবাদ | Thana: রায়পুর | Code: 1631
+- [ID: 236] রাধাগঞ্জ বাজার | Thana: রায়পুর | Code: 1632
+- [ID: 237] রায়পুর | Thana: রায়পুর | Code: 1630
+- [ID: 238] শিবপুর | Thana: শিবপুর | Code: 1620
+
+## Branch Offices in Narsingdi:
+- [ID: branch_287] Karimpur | Thana: সদর
+- [ID: branch_288] Satgram | Thana: সদর
+- [ID: branch_289] Collectorate Bhabon | Thana: সদর
+- [ID: branch_290] Amdiya | Thana: সদর
+- [ID: branch_291] Balusair | Thana: সদর
+- [ID: branch_292] Vatpara | Thana: সদর
+- [ID: branch_293] Shekherchar | Thana: সদর
+- [ID: branch_294] Shilmandi | Thana: সদর
+- [ID: branch_295] Baghhat | Thana: সদর
+- [ID: branch_296] Noyapara | Thana: সদর
+- [ID: branch_297] Jameya E Kashemiya | Thana: সদর
+- [ID: branch_298] Panchoboti | Thana: সদর
+- [ID: branch_299] Najorpur | Thana: সদর
+- [ID: branch_300] Meghna Bazar | Thana: সদর
+- [ID: branch_301] M Pachgaon | Thana: সদর
+- [ID: branch_302] Rasulpur | Thana: সদর
+- [ID: branch_303] Nuralapur | Thana: সদর
+- [ID: branch_304] Nowagaon | Thana: সদর
+- [ID: branch_305] Chinbalapur | Thana: সদর
+- [ID: branch_306] Kathalia | Thana: সদর
+- [ID: branch_307] Shantanpara | Thana: পলাশ
+- [ID: branch_308] Charsindhur | Thana: পলাশ
+- [ID: branch_309] Khas Hawla | Thana: পলাশ
+- [ID: branch_310] Gayeshpur | Thana: পলাশ
+- [ID: branch_311] Noakanda Bazar | Thana: পলাশ
+- [ID: branch_312] Sayederkhola | Thana: পলাশ
+- [ID: branch_313] Paruliya | Thana: পলাশ
+- [ID: branch_314] Dokkhin Sadarchar | Thana: পলাশ
+- [ID: branch_315] Jinadi | Thana: পলাশ
+- [ID: branch_316] jasor Bazar | Thana: শিবপুর
+- [ID: branch_317] Nowkaghat | Thana: শিবপুর
+- [ID: branch_318] Kamrab | Thana: শিবপুর
+- [ID: branch_319] Chotobondo | Thana: শিবপুর
+- [ID: branch_320] Chaitonno | Thana: শিবপুর
+- [ID: branch_321] Joynagar | Thana: শিবপুর
+- [ID: branch_322] Uttar Agarpur | Thana: শিবপুর
+- [ID: branch_323] Kumartek | Thana: শিবপুর
+- [ID: branch_324] Putiyabari | Thana: শিবপুর
+- [ID: branch_325] Dakkhin Agarpur | Thana: শিবপুর
+- [ID: branch_326] Hossenpur | Thana: শিবপুর
+- [ID: branch_327] Dottergaon | Thana: শিবপুর
+- [ID: branch_328] Dulalpur | Thana: শিবপুর
+- [ID: branch_329] Dhanua Telikandi | Thana: শিবপুর
+- [ID: branch_330] Nimgaon Pulehat | Thana: শিবপুর
+- [ID: branch_331] Khariya | Thana: শিবপুর
+- [ID: branch_332] Baghab | Thana: শিবপুর
+- [ID: branch_333] Bailab | Thana: শিবপুর
+- [ID: branch_334] Borokanda | Thana: শিবপুর
+- [ID: branch_335] Uttor Sadarchar | Thana: শিবপুর
+- [ID: branch_336] Satpara | Thana: শিবপুর
+- [ID: branch_337] Sunakura Bazar | Thana: শিবপুর
+- [ID: branch_338] Mojlispur | Thana: শিবপুর
+- [ID: branch_339] Ghorbari | Thana: শিবপুর
+- [ID: branch_340] Paratola | Thana: শিবপুর
+- [ID: branch_341] Purandiya Bazar | Thana: শিবপুর
+- [ID: branch_342] Kalinagar | Thana: শিবপুর
+- [ID: branch_343] Lakhpur | Thana: শিবপুর
+- [ID: branch_344] Kumardi | Thana: শিবপুর
+- [ID: branch_345] Kararchar | Thana: শিবপুর
+- [ID: branch_346] Kundarpara | Thana: শিবপুর
+- [ID: branch_347] Noadiya | Thana: শিবপুর
+- [ID: branch_348] Shashpur | Thana: শিবপুর
+- [ID: branch_349] Sayednagar | Thana: শিবপুর
+- [ID: branch_350] Radhaganj | Thana: রায়পুরা
+- [ID: branch_351] Bazar Hasnabad | Thana: রায়পুরা
+- [ID: branch_352] Moddho Nagar | Thana: রায়পুরা
+- [ID: branch_353] Ashramchar | Thana: রায়পুরা
+- [ID: branch_354] Borochar | Thana: রায়পুরা
+- [ID: branch_355] Hashimpur | Thana: রায়পুরা
+- [ID: branch_356] Kohinur Jute Mills | Thana: রায়পুরা
+- [ID: branch_357] Kataghat | Thana: রায়পুরা
+- [ID: branch_358] Algi Bazar | Thana: রায়পুরা
+- [ID: branch_359] Marjal | Thana: রায়পুরা
+- [ID: branch_360] Bashgari | Thana: রায়পুরা
+- [ID: branch_361] Ramnagar | Thana: রায়পুরা
+- [ID: branch_362] Mirjarchar | Thana: রায়পুরা
+- [ID: branch_363] Narayanpur | Thana: রায়পুরা
+- [ID: branch_364] Paratoli | Thana: রায়পুরা
+- [ID: branch_365] Pirijkandi | Thana: রায়পুরা
+- [ID: branch_366] Pirpur | Thana: রায়পুরা
+- [ID: branch_367] Rajprasad | Thana: রায়পুরা
+- [ID: branch_368] Bakharnagar | Thana: রায়পুরা
+- [ID: branch_369] Saidabad | Thana: রায়পুরা
+- [ID: branch_370] Sampara | Thana: রায়পুরা
+- [ID: branch_371] Soudagorkandi | Thana: রায়পুরা
+- [ID: branch_372] Sreenidhi | Thana: রায়পুরা
+- [ID: branch_373] Moheshpur | Thana: রায়পুরা
+- [ID: branch_374] Mushapur Pagla Bazar | Thana: রায়পুরা
+- [ID: branch_375] Tulatoli | Thana: রায়পুরা
+- [ID: branch_376] Sahebchar | Thana: রায়পুরা
+- [ID: branch_377] Charmodhua | Thana: রায়পুরা
+- [ID: branch_378] Adiyabad | Thana: রায়পুরা
+- [ID: branch_379] Nilokkha | Thana: রায়পুরা
+- [ID: branch_380] Alokbali | Thana: রায়পুরা
+- [ID: branch_381] Rahimabad | Thana: রায়পুরা
+- [ID: branch_382] Baghaikandi | Thana: রায়পুরা
+- [ID: branch_383] Hairmara | Thana: রায়পুরা
+- [ID: branch_384] Uttor Mirzanagar | Thana: রায়পুরা
+- [ID: branch_385] Charsubuddhi | Thana: রায়পুরা
+- [ID: branch_386] Bot Toli | Thana: রায়পুরা
+- [ID: branch_387] Dowkarchar | Thana: রায়পুরা
+- [ID: branch_388] Hatubanga | Thana: রায়পুরা
+- [ID: branch_389] Lokkhipur | Thana: রায়পুরা
+- [ID: branch_390] Amlabo | Thana: বেলাবো
+- [ID: branch_391] Dulalkandi | Thana: বেলাবো
+- [ID: branch_392] Hosennagar | Thana: বেলাবো
+- [ID: branch_393] Vaterchar | Thana: বেলাবো
+- [ID: branch_394] Dewanerchar | Thana: বেলাবো
+- [ID: branch_395] Boteswar | Thana: বেলাবো
+- [ID: branch_396] Binnabaid | Thana: বেলাবো
+- [ID: branch_397] Dholipara | Thana: বেলাবো
+- [ID: branch_398] Vabla | Thana: বেলাবো
+- [ID: branch_399] Char Kashimnagar | Thana: বেলাবো
+- [ID: branch_400] Poradia | Thana: বেলাবো
+- [ID: branch_401] Dokkhin Lakhpur | Thana: বেলাবো
+- [ID: branch_402] Aouliakanda | Thana: বেলাবো
+- [ID: branch_403] Ujilab | Thana: বেলাবো
+- [ID: branch_404] Chandanpur | Thana: বেলাবো
+- [ID: branch_405] Bir Maijdiya | Thana: মনোহরদী
+- [ID: branch_406] Ekduriya | Thana: মনোহরদী
+- [ID: branch_407] Khifirpur | Thana: মনোহরদী
+- [ID: branch_408] Charmandaliya | Thana: মনোহরদী
+- [ID: branch_409] Chowrasta Mowlovibazar | Thana: মনোহরদী
+- [ID: branch_410] Chalakchar | Thana: মনোহরদী
+- [ID: branch_411] Tarakandi | Thana: মনোহরদী
+- [ID: branch_412] Norendropur | Thana: মনোহরদী
+- [ID: branch_413] Shekhergaon | Thana: মনোহরদী
+- [ID: branch_414] Sukundi | Thana: মনোহরদী
+- [ID: branch_415] Lebutola | Thana: মনোহরদী
+- [ID: branch_416] Rampur | Thana: মনোহরদী
+- [ID: branch_417] Gotashhiya | Thana: মনোহরদী
+- [ID: branch_418] Alalpur | Thana: মনোহরদী
+- [ID: branch_419] Chula | Thana: মনোহরদী
+- [ID: branch_420] Uttor Noadiya | Thana: মনোহরদী
+- [ID: branch_421] Narandi | Thana: মনোহরদী
+- [ID: branch_422] Doulotpur | Thana: মনোহরদী
+- [ID: branch_423] Savardiya | Thana: মনোহরদী
+- [ID: branch_424] Baghadi Chowrasta Bazar | Thana: মনোহরদী
+- [ID: branch_425] Kahetergaon | Thana: নরসিংদী সদর
+- [ID: branch_426] Boro Mirzapur Bazar | Thana: নরসিংদী সদর
+- [ID: branch_427] Borochapa | Thana: নরসিংদী সদর
+- [ID: branch_428] Krishnapur | Thana: নরসিংদী সদর
+- [ID: branch_429] Hafizpur | Thana: নরসিংদী সদর
+
+# =========================================================
+# DISTRICT: Gazipur (Branches: 135, Main: 24)
+# =========================================================
+
+## Main Offices in Gazipur:
+- [ID: 70] B.O.F | Thana: গাজীপুর সদর | Code: 1703
+- [ID: 71] B.R.R | Thana: গাজীপুর সদর | Code: 1701
+- [ID: 72] চান্দনা | Thana: গাজীপুর সদর | Code: 1702
+- [ID: 73] গাজীপুর সদর | Thana: গাজীপুর সদর | Code: 1700
+- [ID: 74] জাতীয় বিশ্ববিদ্যালয় | Thana: গাজীপুর সদর | Code: 1704
+- [ID: 75] কালিয়াকৈর | Thana: কালিয়াকৈর | Code: 1750
+- [ID: 76] সফিপুর | Thana: কালিয়াকৈর | Code: 1751
+- [ID: 77] কালীগঞ্জ | Thana: কালীগঞ্জ | Code: 1720
+- [ID: 78] পুবাইল | Thana: কালীগঞ্জ | Code: 1721
+- [ID: 79] সান্তানপাড়া | Thana: কালীগঞ্জ | Code: 1722
+- [ID: 80] ভাওয়াল জামালপুর | Thana: কালীগঞ্জ | Code: 1723
+- [ID: 81] কাপাসিয়া | Thana: কাপাসিয়া | Code: 1730
+- [ID: 82] এরশাদ নগর | Thana: মন্নুনগর | Code: 1712
+- [ID: 83] মন্নুনগর | Thana: মন্নুনগর | Code: 1710
+- [ID: 84] নিশাত নগর | Thana: মন্নুনগর | Code: 1711
+- [ID: 85] বারমি | Thana: শ্রীপুর | Code: 1743
+- [ID: 86] বাশামুর | Thana: শ্রীপুর | Code: 1747
+- [ID: 87] বউবি | Thana: শ্রীপুর | Code: 1748
+- [ID: 88] কাওরাইদ | Thana: শ্রীপুর | Code: 1745
+- [ID: 89] সাতখামার | Thana: শ্রীপুর | Code: 1744
+- [ID: 90] শ্রীপুর | Thana: শ্রীপুর | Code: 1740
+- [ID: 91] রাজেন্দ্রপুর | Thana: শ্রীপুর | Code: 1741
+- [ID: 92] রাজেন্দ্রপুর সেনানিবাস | Thana: শ্রীপুর | Code: 1742
+- [ID: 1359] ইপশা (BSMRAU) | Thana: গাজীপুর সদর | Code: 1706
+
+## Branch Offices in Gazipur:
+- [ID: branch_430] Harbaid | Thana: গাজীপুর সদর
+- [ID: branch_431] Bogdadia | Thana: গাজীপুর সদর
+- [ID: branch_432] Mirashpara | Thana: গাজীপুর সদর
+- [ID: branch_433] Tongi Bazar | Thana: গাজীপুর সদর
+- [ID: branch_434] Pubail | Thana: গাজীপুর সদর
+- [ID: branch_435] Chandona | Thana: গাজীপুর সদর
+- [ID: branch_436] Kumun | Thana: গাজীপুর সদর
+- [ID: branch_437] Kalni | Thana: গাজীপুর সদর
+- [ID: branch_438] Vawal Bariya | Thana: গাজীপুর সদর
+- [ID: branch_439] Kanaiya | Thana: গাজীপুর সদর
+- [ID: branch_440] Dhirashram | Thana: গাজীপুর সদর
+- [ID: branch_441] Vabanipur | Thana: গাজীপুর সদর
+- [ID: branch_442] Mirjapur | Thana: গাজীপুর সদর
+- [ID: branch_443] Salna | Thana: গাজীপুর সদর
+- [ID: branch_444] Kaultiya | Thana: গাজীপুর সদর
+- [ID: branch_445] Bitipara Bazar | Thana: গাজীপুর সদর
+- [ID: branch_446] Zirani Bazar | Thana: গাজীপুর সদর
+- [ID: branch_447] Kodda Bazar | Thana: গাজীপুর সদর
+- [ID: branch_448] Nilnagar | Thana: গাজীপুর সদর
+- [ID: branch_449] Kashimpur | Thana: গাজীপুর সদর
+- [ID: branch_450] Sardagonj | Thana: গাজীপুর সদর
+- [ID: branch_451] Konabari | Thana: গাজীপুর সদর
+- [ID: branch_452] Boro Vabanipur | Thana: গাজীপুর সদর
+- [ID: branch_453] KB Bazar | Thana: গাজীপুর সদর
+- [ID: branch_454] Gacha | Thana: গাজীপুর সদর
+- [ID: branch_455] Ulukhola | Thana: কালীগঞ্জ
+- [ID: branch_456] Khasdaudpur | Thana: কালীগঞ্জ
+- [ID: branch_457] Atlapur | Thana: কালীগঞ্জ
+- [ID: branch_458] Birabo | Thana: কালীগঞ্জ
+- [ID: branch_459] Putinabazar | Thana: কালীগঞ্জ
+- [ID: branch_460] Som Notun Bazar | Thana: কালীগঞ্জ
+- [ID: branch_461] Danga Bazar | Thana: কালীগঞ্জ
+- [ID: branch_462] Nagori | Thana: কালীগঞ্জ
+- [ID: branch_463] Adijangalia | Thana: কালীগঞ্জ
+- [ID: branch_464] Boktarpur | Thana: কালীগঞ্জ
+- [ID: branch_465] Fuldi | Thana: কালীগঞ্জ
+- [ID: branch_466] Bhawal Bhrahammangaon | Thana: কালীগঞ্জ
+- [ID: branch_467] Dubati Madrasa | Thana: কালীগঞ্জ
+- [ID: branch_468] Rangamatia | Thana: কালীগঞ্জ
+- [ID: branch_469] Sauraid | Thana: কালীগঞ্জ
+- [ID: branch_470] Kolapatua | Thana: কালীগঞ্জ
+- [ID: branch_471] Deputipara | Thana: কালীগঞ্জ
+- [ID: branch_472] Baghun | Thana: কালীগঞ্জ
+- [ID: branch_473] Dokkhinbag | Thana: কালীগঞ্জ
+- [ID: branch_474] Vawal Noapara | Thana: কালীগঞ্জ
+- [ID: branch_475] Nurun Bazar | Thana: কালীগঞ্জ
+- [ID: branch_476] Ajmatpur | Thana: কালীগঞ্জ
+- [ID: branch_477] Aral Bazar | Thana: কাপাসিয়া
+- [ID: branch_478] Kamargaon | Thana: কাপাসিয়া
+- [ID: branch_479] Khirati | Thana: কাপাসিয়া
+- [ID: branch_480] Gaghutiya | Thana: কাপাসিয়া
+- [ID: branch_481] Singuya | Thana: কাপাসিয়া
+- [ID: branch_482] Pakiyab Madrasa | Thana: কাপাসিয়া
+- [ID: branch_483] Meruya Madrasa | Thana: কাপাসিয়া
+- [ID: branch_484] Mirzanagar | Thana: কাপাসিয়া
+- [ID: branch_485] Char Nilokkhi | Thana: কাপাসিয়া
+- [ID: branch_486] Hasanpur | Thana: কাপাসিয়া
+- [ID: branch_487] Sonmaniya | Thana: কাপাসিয়া
+- [ID: branch_488] Noruttampur | Thana: কাপাসিয়া
+- [ID: branch_489] Pachua Hazir Bazar | Thana: কাপাসিয়া
+- [ID: branch_490] Tokenoyon Bazar | Thana: কাপাসিয়া
+- [ID: branch_491] Verarchar | Thana: কাপাসিয়া
+- [ID: branch_492] Barishab | Thana: কাপাসিয়া
+- [ID: branch_493] Birojali | Thana: কাপাসিয়া
+- [ID: branch_494] Aralia Bazar | Thana: কাপাসিয়া
+- [ID: branch_495] Ikuriya | Thana: কাপাসিয়া
+- [ID: branch_496] Khamer | Thana: কাপাসিয়া
+- [ID: branch_497] Torgaon | Thana: কাপাসিয়া
+- [ID: branch_498] Taragonj | Thana: কাপাসিয়া
+- [ID: branch_499] Pakbaghiya | Thana: কাপাসিয়া
+- [ID: branch_500] Pabur | Thana: কাপাসিয়া
+- [ID: branch_501] Vawal Chandpur | Thana: কাপাসিয়া
+- [ID: branch_502] Raniganj Bazar | Thana: কাপাসিয়া
+- [ID: branch_503] Vawal Narayanpur | Thana: কাপাসিয়া
+- [ID: branch_504] Rawnait | Thana: কাপাসিয়া
+- [ID: branch_505] Tilshuniya | Thana: কাপাসিয়া
+- [ID: branch_506] Fulbariya Madrasa | Thana: কাপাসিয়া
+- [ID: branch_507] Pirojpur | Thana: কাপাসিয়া
+- [ID: branch_508] Charkhamer | Thana: কাপাসিয়া
+- [ID: branch_509] Baghua | Thana: কাপাসিয়া
+- [ID: branch_510] Palashpur | Thana: কাপাসিয়া
+- [ID: branch_511] Borunhat | Thana: কাপাসিয়া
+- [ID: branch_512] Lohadi | Thana: কাপাসিয়া
+- [ID: branch_513] Amraid | Thana: কাপাসিয়া
+- [ID: branch_514] Ulusara | Thana: কাপাসিয়া
+- [ID: branch_515] Kopaleshwar | Thana: কাপাসিয়া
+- [ID: branch_516] Vuleshwar | Thana: কাপাসিয়া
+- [ID: branch_517] Rayed | Thana: কাপাসিয়া
+- [ID: branch_518] Singhoshree | Thana: কাপাসিয়া
+- [ID: branch_519] Sohagpur | Thana: কাপাসিয়া
+- [ID: branch_520] Dumdiya | Thana: কাপাসিয়া
+- [ID: branch_521] Rajendropur Bazar | Thana: শ্রীপুর
+- [ID: branch_522] Satkhamair | Thana: শ্রীপুর
+- [ID: branch_523] Basudebpur | Thana: শ্রীপুর
+- [ID: branch_524] Marta | Thana: শ্রীপুর
+- [ID: branch_525] Gajipur Bazar | Thana: শ্রীপুর
+- [ID: branch_526] Goshinga | Thana: শ্রীপুর
+- [ID: branch_527] Gila Beraid | Thana: শ্রীপুর
+- [ID: branch_528] Tengra | Thana: শ্রীপুর
+- [ID: branch_529] Doni Borotopa | Thana: শ্রীপুর
+- [ID: branch_530] Boiragir Chala | Thana: শ্রীপুর
+- [ID: branch_531] Mawna | Thana: শ্রীপুর
+- [ID: branch_532] Telihati | Thana: শ্রীপুর
+- [ID: branch_533] Nij Mawna | Thana: শ্রীপুর
+- [ID: branch_534] Latifpur | Thana: শ্রীপুর
+- [ID: branch_535] Kewa Bazar | Thana: শ্রীপুর
+- [ID: branch_536] Vawal rajabari | Thana: শ্রীপুর
+- [ID: branch_537] Nolgaon | Thana: শ্রীপুর
+- [ID: branch_538] Faogain | Thana: শ্রীপুর
+- [ID: branch_539] Damdoma | Thana: শ্রীপুর
+- [ID: branch_540] Vitipara | Thana: শ্রীপুর
+- [ID: branch_541] Baldighat | Thana: শ্রীপুর
+- [ID: branch_542] Hoydebpur | Thana: শ্রীপুর
+- [ID: branch_543] bapta | Thana: শ্রীপুর
+- [ID: branch_544] Cha-Bagan | Thana: কালিয়াকৈর
+- [ID: branch_545] Pirojali | Thana: কালিয়াকৈর
+- [ID: branch_546] Fulbariya | Thana: কালিয়াকৈর
+- [ID: branch_547] Boali | Thana: কালিয়াকৈর
+- [ID: branch_548] Raghunathpur | Thana: কালিয়াকৈর
+- [ID: branch_549] Sakeshwar | Thana: কালিয়াকৈর
+- [ID: branch_550] Bashtoli | Thana: কালিয়াকৈর
+- [ID: branch_551] shahbajpur | Thana: কালিয়াকৈর
+- [ID: branch_552] Boliyadi | Thana: কালিয়াকৈর
+- [ID: branch_553] Boroipara | Thana: কালিয়াকৈর
+- [ID: branch_554] Gosatra | Thana: কালিয়াকৈর
+- [ID: branch_555] Haturiyachala | Thana: কালিয়াকৈর
+- [ID: branch_556] Araigonj Hatkhola | Thana: কালিয়াকৈর
+- [ID: branch_557] Goalbathan | Thana: কালিয়াকৈর
+- [ID: branch_558] Boroibai | Thana: কালিয়াকৈর
+- [ID: branch_559] Boro Gobindopur | Thana: কালিয়াকৈর
+- [ID: branch_560] Dewar Bazar | Thana: কালিয়াকৈর
+- [ID: branch_561] Safipur Bazar | Thana: কালিয়াকৈর
+- [ID: branch_562] Ratanpur | Thana: কালিয়াকৈর
+- [ID: branch_563] Chandura | Thana: কালিয়াকৈর
+- [ID: branch_564] Mowchak | Thana: কালিয়াকৈর
+
+# =========================================================
+# DISTRICT: Manikganj (Branches: 71, Main: 18)
+# =========================================================
+
+## Main Offices in Manikganj:
+- [ID: 145] দৌলতপুর | Thana: দৌলতপুর | Code: 1860
+- [ID: 146] ঘিওর | Thana: ঘিওর | Code: 1840
+- [ID: 147] ঝিটকা | Thana: লেছড়াগঞ্জ | Code: 1831
+- [ID: 148] বারহামগঞ্জ | Thana: বারহামগঞ্জ | Code: 1830
+- [ID: 149] বরংগাইল | Thana: মানিকগঞ্জ সদর | Code: 1804
+- [ID: 150] গড়পাড়া | Thana: মানিকগঞ্জ সদর | Code: 1802
+- [ID: 151] মহাদেবপুর | Thana: মানিকগঞ্জ সদর | Code: 1803
+- [ID: 152] মানিকগঞ্জ বাজার | Thana: মানিকগঞ্জ সদর | Code: 1801
+- [ID: 153] মানিকগঞ্জ সদর | Thana: মানিকগঞ্জ সদর | Code: 1800
+- [ID: 154] বালিয়াটি | Thana: সাটুরিয়া | Code: 1811
+- [ID: 155] সাটুরিয়া | Thana: সাটুরিয়া | Code: 1810
+- [ID: 156] আরিচা | Thana: শিবালয় | Code: 1851
+- [ID: 157] শিবালয় | Thana: শিবালয় | Code: 1850
+- [ID: 158] তেওতা | Thana: শিবালয় | Code: 1852
+- [ID: 159] উঠলি | Thana: শিবালয় | Code: 1853
+- [ID: 160] বায়রা | Thana: সিংগাইর | Code: 1821
+- [ID: 161] জয়মন্তব | Thana: সিংগাইর | Code: 1822
+- [ID: 162] সিংগাইর | Thana: সিংগাইর | Code: 1820
+
+## Branch Offices in Manikganj:
+- [ID: branch_565] Gorpara | Thana: সদর
+- [ID: branch_566] Borong Gail | Thana: সদর
+- [ID: branch_567] Mohadebpur | Thana: সদর
+- [ID: branch_568] Manikgonj Bazar | Thana: সদর
+- [ID: branch_569] Teota | Thana: সদর
+- [ID: branch_570] Uthuli | Thana: সদর
+- [ID: branch_571] Boikanthapur | Thana: সদর
+- [ID: branch_572] Balirtek | Thana: সদর
+- [ID: branch_573] Baniyajuri | Thana: সদর
+- [ID: branch_574] Bongkhuri | Thana: সদর
+- [ID: branch_575] Boraid | Thana: সদর
+- [ID: branch_576] Boro Hatkora | Thana: সদর
+- [ID: branch_577] Barundi | Thana: সদর
+- [ID: branch_578] Betila | Thana: সদর
+- [ID: branch_579] Brikaliyakoir | Thana: সদর
+- [ID: branch_580] Chartilli | Thana: সদর
+- [ID: branch_581] Baraivikra | Thana: সদর
+- [ID: branch_582] Charghosta | Thana: সদর
+- [ID: branch_583] Dhankora | Thana: সদর
+- [ID: branch_584] V-Tarail | Thana: সদর
+- [ID: branch_585] Helachiya | Thana: সদর
+- [ID: branch_586] Intajganj | Thana: সদর
+- [ID: branch_587] Jagir | Thana: সদর
+- [ID: branch_588] Zanna Bazar | Thana: সদর
+- [ID: branch_589] Zarina College | Thana: সদর
+- [ID: branch_590] Koitra | Thana: সদর
+- [ID: branch_591] Koliya Bazar | Thana: সদর
+- [ID: branch_592] Kellai | Thana: সদর
+- [ID: branch_593] Koitora | Thana: সদর
+- [ID: branch_594] Khabaspur | Thana: সদর
+- [ID: branch_595] Lemubari | Thana: সদর
+- [ID: branch_596] Motto | Thana: সদর
+- [ID: branch_597] Mitara | Thana: সদর
+- [ID: branch_598] Muljan | Thana: সদর
+- [ID: branch_599] Nabogram | Thana: সদর
+- [ID: branch_600] Pecharkanda | Thana: সদর
+- [ID: branch_601] Pukhuriya | Thana: সদর
+- [ID: branch_602] Ramdiyanali | Thana: সদর
+- [ID: branch_603] Sakrail | Thana: সদর
+- [ID: branch_604] Chanka | Thana: সদর
+- [ID: branch_605] Tora | Thana: সদর
+- [ID: branch_606] Shushunda | Thana: সদর
+- [ID: branch_607] Tilli | Thana: সদর
+- [ID: branch_608] Joynagar | Thana: সদর
+- [ID: branch_609] Butuni | Thana: সদর
+- [ID: branch_610] Bayra | Thana: সদর
+- [ID: branch_611] Atigram | Thana: সদর
+- [ID: branch_612] Katigram | Thana: সদর
+- [ID: branch_613] Krishnapur | Thana: সদর
+- [ID: branch_614] Barahirchar | Thana: সদর
+- [ID: branch_615] Agsavar | Thana: সাটুরিয়া
+- [ID: branch_616] Dargram | Thana: সাটুরিয়া
+- [ID: branch_617] Gopalpur | Thana: সাটুরিয়া
+- [ID: branch_618] Hargoj | Thana: সাটুরিয়া
+- [ID: branch_619] Dighuliya | Thana: সাটুরিয়া
+- [ID: branch_620] Dholla Bazar | Thana: সিংগাইর
+- [ID: branch_621] Charigram | Thana: সিংগাইর
+- [ID: branch_622] Golardanga | Thana: সিংগাইর
+- [ID: branch_623] Dokkhin Jamsha | Thana: সিংগাইর
+- [ID: branch_624] Paril Nowarda | Thana: সিংগাইর
+- [ID: branch_625] Choto Kaliakair | Thana: সিংগাইর
+- [ID: branch_626] Boldhara | Thana: সিংগাইর
+- [ID: branch_627] Irta | Thana: সিংগাইর
+- [ID: branch_628] Jamirta | Thana: সিংগাইর
+- [ID: branch_629] Chandahar | Thana: সিংগাইর
+- [ID: branch_630] Sirajpur | Thana: সিংগাইর
+- [ID: branch_631] Sahrail | Thana: সিংগাইর
+- [ID: branch_632] Chowdhury Bowali | Thana: হরিরামপুর
+- [ID: branch_633] Ibrahimpur | Thana: হরিরামপুর
+- [ID: branch_634] Harukandi | Thana: হরিরামপুর
+- [ID: branch_635] Jatrapur | Thana: হরিরামপুর
+
+# =========================================================
+# DISTRICT: Tangail (Branches: 36, Main: 45)
+# =========================================================
+
+## Main Offices in Tangail:
+- [ID: 260] বাসাইল | Thana: বাসাইল | Code: 1920
+- [ID: 261] ভূঞাপুর | Thana: ভূঞাপুর | Code: 1960
+- [ID: 262] দেলদুয়ার | Thana: দেলদুয়ার | Code: 1910
+- [ID: 263] ইলাসিন | Thana: দেলদুয়ার | Code: 1913
+- [ID: 264] হিংগা নগর | Thana: দেলদুয়ার | Code: 1914
+- [ID: 265] জাঙ্গালিয়া | Thana: দেলদুয়ার | Code: 1911
+- [ID: 266] লউহাটি | Thana: দেলদুয়ার | Code: 1915
+- [ID: 267] পাঠারাইল | Thana: দেলদুয়ার | Code: 1912
+- [ID: 268] ডি পাকুটিয়া | Thana: ঘাটাইল | Code: 1982
+- [ID: 269] ধলাপাড়া | Thana: ঘাটাইল | Code: 1983
+- [ID: 270] ঘাটাইল | Thana: ঘাটাইল | Code: 1980
+- [ID: 271] লোহানী | Thana: ঘাটাইল | Code: 1984
+- [ID: 272] জাহিদগঞ্জ | Thana: ঘাটাইল | Code: 1981
+- [ID: 273] গোপালপুর | Thana: গোপালপুর | Code: 1990
+- [ID: 274] হেমনগর | Thana: গোপালপুর | Code: 1992
+- [ID: 275] ঝোওয়াইল | Thana: গোপালপুর | Code: 1991
+- [ID: 276] চাতুতিয়া | Thana: গোপালপুর | Code: 1991
+- [ID: 277] বাল্লাবাজার | Thana: কালিহাতী | Code: 1973
+- [ID: 278] ইলিংগা | Thana: কালিহাতী | Code: 1974
+- [ID: 279] কালিহাতী | Thana: কালিহাতী | Code: 1970
+- [ID: 280] নগরবাড়ী | Thana: কালিহাতী | Code: 1977
+- [ID: 281] নগরবাড়ী তাই | Thana: কালিহাতী | Code: 1976
+- [ID: 282] নাগবাড়ি | Thana: কালিহাতী | Code: 1972
+- [ID: 283] পালিশা | Thana: কালিহাতী | Code: 1975
+- [ID: 284] রাজাফাইর | Thana: কালিহাতী | Code: 1971
+- [ID: 285] কাশকাওলিয়া | Thana: কাশকাওলিয়া | Code: 1930
+- [ID: 286] ধবাড়ি | Thana: মধুপুর | Code: 1997
+- [ID: 287] মধুপুর | Thana: মধুপুর | Code: 1996
+- [ID: 288] গড়াই | Thana: মির্জাপুর | Code: 1941
+- [ID: 289] জারমুকি | Thana: মির্জাপুর | Code: 1944
+- [ID: 290] এম.সি. কলেজ | Thana: মির্জাপুর | Code: 1942
+- [ID: 291] মির্জাপুর | Thana: মির্জাপুর | Code: 1940
+- [ID: 292] মহেরা | Thana: মির্জাপুর | Code: 1945
+- [ID: 293] ওয়ারী পাইকপাড়া | Thana: মির্জাপুর | Code: 1943
+- [ID: 294] ধুবুরিয়া | Thana: নাগরপুর | Code: 1937
+- [ID: 295] নাগরপুর | Thana: নাগরপুর | Code: 1936
+- [ID: 296] সলিমাবাদ | Thana: নাগরপুর | Code: 1938
+- [ID: 297] কচুয়া | Thana: সখীপুর | Code: 1951
+- [ID: 298] সখীপুর | Thana: সখীপুর | Code: 1950
+- [ID: 299] কাগমারি | Thana: টাঙ্গাইল সদর | Code: 1901
+- [ID: 300] করোতিয়া | Thana: টাঙ্গাইল সদর | Code: 1903
+- [ID: 301] পুড়াবাড়ি | Thana: টাঙ্গাইল সদর | Code: 1904
+- [ID: 302] সন্তোষ | Thana: টাঙ্গাইল সদর | Code: 1902
+- [ID: 303] টাঙ্গাইল সদর | Thana: টাঙ্গাইল সদর | Code: 1900
+- [ID: 1360] খাস কাওলিয়া | Thana: খাস কাওলিয়া | Code: 1921
+
+## Branch Offices in Tangail:
+- [ID: branch_636] Mogra | Thana: সদর
+- [ID: branch_637] Makorkol | Thana: সদর
+- [ID: branch_638] Hinganagar | Thana: দেলদুয়ার
+- [ID: branch_639] Pathrail | Thana: দেলদুয়ার
+- [ID: branch_640] Atiya Darga | Thana: দেলদুয়ার
+- [ID: branch_641] Lauhati | Thana: দেলদুয়ার
+- [ID: branch_642] Koijuri | Thana: দেলদুয়ার
+- [ID: branch_643] Aisora | Thana: বাসাইল
+- [ID: branch_644] Fulki Jhanjhaniya | Thana: বাসাইল
+- [ID: branch_645] Tenguriyapara | Thana: বাসাইল
+- [ID: branch_646] Konra | Thana: নাগরপুর
+- [ID: branch_647] Khash Shahjani | Thana: নাগরপুর
+- [ID: branch_648] Kuripara | Thana: মির্জাপুর
+- [ID: branch_649] Mirzapur Cadet College | Thana: মির্জাপুর
+- [ID: branch_650] Kochua | Thana: সখিপুর
+- [ID: branch_651] Indarjani | Thana: সখিপুর
+- [ID: branch_652] Nikrail | Thana: ভূঞাপুর
+- [ID: branch_653] Palisha Matikata | Thana: ভূঞাপুর
+- [ID: branch_654] Charoshshua | Thana: ভূঞাপুর
+- [ID: branch_655] Dhubliya | Thana: ভূঞাপুর
+- [ID: branch_656] Nalin Bazar | Thana: ভূঞাপুর
+- [ID: branch_657] Arjuna | Thana: ভূঞাপুর
+- [ID: branch_658] Chati Hati | Thana: কালিহাতী
+- [ID: branch_659] Nagbari | Thana: কালিহাতী
+- [ID: branch_660] Kadomtoli | Thana: ঘাটাইল
+- [ID: branch_661] Kaliyagram | Thana: ঘাটাইল
+- [ID: branch_662] Dewpara | Thana: ঘাটাইল
+- [ID: branch_663] Bagundali | Thana: ঘাটাইল
+- [ID: branch_664] Vabondotto | Thana: ঘাটাইল
+- [ID: branch_665] Shahi Anuhola | Thana: ঘাটাইল
+- [ID: branch_666] Jahidganj | Thana: ঘাটাইল
+- [ID: branch_667] D Pakutiya | Thana: ঘাটাইল
+- [ID: branch_668] Hadira Bazar | Thana: গোপালপুর
+- [ID: branch_669] Vengua | Thana: গোপালপুর
+- [ID: branch_670] Rajafoir | Thana: মধুপুর
+- [ID: branch_671] Sholakura | Thana: মধুপুর
+
+# =========================================================
+# DISTRICT: Kishoreganj (Branches: 76, Main: 22)
+# =========================================================
+
+## Main Offices in Kishoreganj:
+- [ID: 110] বাজিতপুর | Thana: বাজিতপুর | Code: 2336
+- [ID: 111] লক্ষ্মীপুর | Thana: বাজিতপুর | Code: 2338
+- [ID: 112] সরারচর | Thana: বাজিতপুর | Code: 2337
+- [ID: 113] ভৈরব | Thana: ভৈরব | Code: 2350
+- [ID: 114] হোসেনপুর | Thana: হোসেনপুর | Code: 2320
+- [ID: 115] ইটনা | Thana: ইটনা | Code: 2390
+- [ID: 116] করিমগঞ্জ | Thana: করিমগঞ্জ | Code: 2310
+- [ID: 117] গচিহাটা | Thana: কটিয়াদি | Code: 2331
+- [ID: 118] কটিয়াদি | Thana: কটিয়াদি | Code: 2330
+- [ID: 119] কিশোরগঞ্জ এস.মিলস | Thana: কিশোরগঞ্জ সদর | Code: 2301
+- [ID: 120] কিশোরগঞ্জ সদর | Thana: কিশোরগঞ্জ সদর | Code: 2300
+- [ID: 121] মাইজহাটি | Thana: পাকুন্দিয়া | Code: 2302
+- [ID: 122] নীলগঞ্জ | Thana: কিশোরগঞ্জ সদর | Code: 2303
+- [ID: 123] ছয়সূতি | Thana: কুলিয়ারচর | Code: 2341
+- [ID: 124] কুলিয়ারচর | Thana: কুলিয়ারচর | Code: 2340
+- [ID: 125] আব্দুল্লাহপুর | Thana: মিঠামইন | Code: 2371
+- [ID: 126] মিঠামইন | Thana: মিঠামইন | Code: 2370
+- [ID: 127] নিকলী | Thana: নিকলী | Code: 2360
+- [ID: 128] অষ্টগ্রাম | Thana: অষ্টগ্রাম | Code: 2380
+- [ID: 129] বাংগালপাড়া | Thana: অষ্টগ্রাম | Code: 2350
+- [ID: 130] পাকুন্দিয়া | Thana: পাকুন্দিয়া | Code: 2326
+- [ID: 131] তাড়াইল | Thana: তাড়াইল | Code: 2316
+
+## Branch Offices in Kishoreganj:
+- [ID: branch_673] Amirganj | Thana: সদর
+- [ID: branch_674] Uradighi Madrasa | Thana: সদর
+- [ID: branch_675] Kariyail | Thana: সদর
+- [ID: branch_676] Bawlai | Thana: সদর
+- [ID: branch_677] Brahamankachori | Thana: সদর
+- [ID: branch_678] Mathiya | Thana: সদর
+- [ID: branch_679] Jasodal | Thana: সদর
+- [ID: branch_680] Nilganj | Thana: সদর
+- [ID: branch_681] Kodaliya | Thana: সদর
+- [ID: branch_682] Chauddasata | Thana: সদর
+- [ID: branch_683] Joybangla | Thana: সদর
+- [ID: branch_684] Binnati | Thana: সদর
+- [ID: branch_685] Salpamariya | Thana: সদর
+- [ID: branch_686] Kodalatiya | Thana: সদর
+- [ID: branch_687] Gujadia | Thana: করিমগঞ্জ
+- [ID: branch_688] Jangalbari | Thana: করিমগঞ্জ
+- [ID: branch_689] Joyka | Thana: করিমগঞ্জ
+- [ID: branch_690] Nansri | Thana: করিমগঞ্জ
+- [ID: branch_691] Parabaliya | Thana: করিমগঞ্জ
+- [ID: branch_692] Niyamatpur | Thana: করিমগঞ্জ
+- [ID: branch_693] Namapara | Thana: করিমগঞ্জ
+- [ID: branch_694] Dehunada Bazar | Thana: করিমগঞ্জ
+- [ID: branch_695] Taljanga | Thana: তাড়াইল
+- [ID: branch_696] Damiha | Thana: তাড়াইল
+- [ID: branch_697] Akubpur | Thana: তাড়াইল
+- [ID: branch_698] Banail | Thana: তাড়াইল
+- [ID: branch_699] Purba Darijahangipur | Thana: তাড়াইল
+- [ID: branch_700] Purura | Thana: তাড়াইল
+- [ID: branch_701] Jaoyar | Thana: তাড়াইল
+- [ID: branch_702] Sekandor Nagar | Thana: তাড়াইল
+- [ID: branch_703] Kajla Bazar | Thana: তাড়াইল
+- [ID: branch_704] Gobindopur | Thana: হোসেনপুর
+- [ID: branch_705] Gangatiya | Thana: হোসেনপুর
+- [ID: branch_706] Charpomdi | Thana: হোসেনপুর
+- [ID: branch_707] Pumdi | Thana: হোসেনপুর
+- [ID: branch_708] Surati | Thana: হোসেনপুর
+- [ID: branch_709] Ashutiya | Thana: হোসেনপুর
+- [ID: branch_710] Kurimara | Thana: হোসেনপুর
+- [ID: branch_711] Jamail | Thana: হোসেনপুর
+- [ID: branch_712] Shiplakandi | Thana: হোসেনপুর
+- [ID: branch_713] Mechera | Thana: হোসেনপুর
+- [ID: branch_714] Sahedal | Thana: হোসেনপুর
+- [ID: branch_715] Harenja | Thana: হোসেনপুর
+- [ID: branch_716] Sukhia | Thana: পাকুন্দিয়া
+- [ID: branch_717] Angiyadi | Thana: পাকুন্দিয়া
+- [ID: branch_718] Charforadi | Thana: পাকুন্দিয়া
+- [ID: branch_719] Taltala | Thana: পাকুন্দিয়া
+- [ID: branch_720] Purba Narandi | Thana: পাকুন্দিয়া
+- [ID: branch_721] Pankchir | Thana: পাকুন্দিয়া
+- [ID: branch_722] Bhadiya | Thana: পাকুন্দিয়া
+- [ID: branch_723] Mathkhola | Thana: পাকুন্দিয়া
+- [ID: branch_724] Lakshia | Thana: পাকুন্দিয়া
+- [ID: branch_725] Hosendi | Thana: পাকুন্দিয়া
+- [ID: branch_726] Patuabhanga | Thana: পাকুন্দিয়া
+- [ID: branch_727] Charkaona | Thana: পাকুন্দিয়া
+- [ID: branch_728] Jangaliya | Thana: পাকুন্দিয়া
+- [ID: branch_729] Tarakandi | Thana: পাকুন্দিয়া
+- [ID: branch_730] Maijhati EDSO | Thana: পাকুন্দিয়া
+- [ID: branch_731] Burudia | Thana: পাকুন্দিয়া
+- [ID: branch_732] Kaladiya | Thana: পাকুন্দিয়া
+- [ID: branch_733] Bethair | Thana: কটিয়াদী
+- [ID: branch_734] Acmita | Thana: কটিয়াদী
+- [ID: branch_735] Moddhopara | Thana: কটিয়াদী
+- [ID: branch_736] Union Jalalpur | Thana: কটিয়াদী
+- [ID: branch_737] Boyalia | Thana: কটিয়াদী
+- [ID: branch_738] Betal | Thana: কটিয়াদী
+- [ID: branch_739] Masuya | Thana: কটিয়াদী
+- [ID: branch_740] Bairagirchar | Thana: কটিয়াদী
+- [ID: branch_741] Mumurdia | Thana: কটিয়াদী
+- [ID: branch_742] Jambait | Thana: কটিয়াদী
+- [ID: branch_743] Charpukiya | Thana: কটিয়াদী
+- [ID: branch_744] Gachhi Hata SO | Thana: কটিয়াদী
+- [ID: branch_745] Pardiyakul | Thana: কটিয়াদী
+- [ID: branch_746] Manikkhali | Thana: কটিয়াদী
+- [ID: branch_747] Dhankipara | Thana: কটিয়াদী
+- [ID: branch_748] Catal | Thana: কটিয়াদী
+
+# =========================================================
+# DISTRICT: Netrokona (Branches: 65, Main: 18)
+# =========================================================
+
+## Main Offices in Netrokona:
+- [ID: 356] সুসনঞ্জ দুর্গাপুর | Thana: সুসনঞ্জ দুর্গাপুর | Code: 2420
+- [ID: 357] আটপাড়া | Thana: আটপাড়া | Code: 2470
+- [ID: 358] বারহাট্টা | Thana: বারহাট্টা | Code: 2440
+- [ID: 359] ধর্মপাশা | Thana: ধর্মপাশা | Code: 2450
+- [ID: 360] ধবাউরা | Thana: ধবাউরা | Code: 2416
+- [ID: 361] সাকয়াই | Thana: ধবাউরা | Code: 2417
+- [ID: 362] কলমাকান্দা | Thana: কলমাকান্দা | Code: 2430
+- [ID: 363] কেন্দুয়া | Thana: কেন্দুয়া | Code: 2480
+- [ID: 364] খালিয়াজুরী | Thana: খালিয়াজুরী | Code: 2460
+- [ID: 365] শালদিঘা | Thana: খালিয়াজুরী | Code: 2462
+- [ID: 366] মদন | Thana: মদন | Code: 2490
+- [ID: 367] মধ্যনগর | Thana: মধ্যনগর | Code: 2456
+- [ID: 368] মোহনগঞ্জ | Thana: মোহনগঞ্জ | Code: 2446
+- [ID: 369] বাইখেরহাটি | Thana: নেত্রকোণা সদর | Code: 2401
+- [ID: 370] নেত্রকোণা সদর | Thana: নেত্রকোণা সদর | Code: 2400
+- [ID: 371] জারিয়া ঝানঝাইল | Thana: পুর্বধোলা | Code: 2412
+- [ID: 372] পুর্বধোলা | Thana: পুর্বধোলা | Code: 2410
+- [ID: 373] শামগঞ্জ | Thana: পুর্বধোলা | Code: 2411
+
+## Branch Offices in Netrokona:
+- [ID: branch_749] Raydomrouha | Thana: সদর
+- [ID: branch_750] Bilkaushi | Thana: পূর্বধলা
+- [ID: branch_751] Hironpur | Thana: পূর্বধলা
+- [ID: branch_752] Munshirhat | Thana: ধোবাউড়া
+- [ID: branch_753] Goatola | Thana: ধোবাউড়া
+- [ID: branch_754] Ketta | Thana: দুর্গাপুর (সুসং)
+- [ID: branch_755] Atithpur | Thana: বারহাট্টা
+- [ID: branch_756] Thakurkona | Thana: বারহাট্টা
+- [ID: branch_757] Rupganj | Thana: বারহাট্টা
+- [ID: branch_758] Dashdhar | Thana: বারহাট্টা
+- [ID: branch_759] Shunoy | Thana: বারহাট্টা
+- [ID: branch_760] Fakirer Bazar | Thana: বারহাট্টা
+- [ID: branch_761] Raypur | Thana: বারহাট্টা
+- [ID: branch_762] Sahta | Thana: বারহাট্টা
+- [ID: branch_763] Uttorbir | Thana: ধর্মপাশা
+- [ID: branch_764] Deola | Thana: ধর্মপাশা
+- [ID: branch_765] Badshgonj | Thana: ধর্মপাশা
+- [ID: branch_766] Joysree | Thana: ধর্মপাশা
+- [ID: branch_767] Rajapur | Thana: ধর্মপাশা
+- [ID: branch_768] Paikurati | Thana: ধর্মপাশা
+- [ID: branch_769] Golokpur | Thana: ধর্মপাশা
+- [ID: branch_770] Sukhair | Thana: ধর্মপাশা
+- [ID: branch_771] Selimgonj | Thana: ধর্মপাশা
+- [ID: branch_772] Kolunka | Thana: ধর্মপাশা
+- [ID: branch_773] Southpara | Thana: মধ্যনগর
+- [ID: branch_774] Chamardani | Thana: মধ্যনগর
+- [ID: branch_775] Bongshikunda | Thana: মধ্যনগর
+- [ID: branch_776] Farokh Nagar | Thana: মধ্যনগর
+- [ID: branch_777] Abid Nagar | Thana: মধ্যনগর
+- [ID: branch_778] Kartikpur | Thana: মধ্যনগর
+- [ID: branch_779] Pach Hat | Thana: খালিয়াজুরী
+- [ID: branch_780] Bolli | Thana: খালিয়াজুরী
+- [ID: branch_781] Trimohoni | Thana: খালিয়াজুরী
+- [ID: branch_782] Nurpur Boali | Thana: খালিয়াজুরী
+- [ID: branch_783] Mukimpur | Thana: খালিয়াজুরী
+- [ID: branch_784] Shaldigha | Thana: খালিয়াজুরী
+- [ID: branch_785] Khila | Thana: আটপাড়া
+- [ID: branch_786] Modhuakhali | Thana: আটপাড়া
+- [ID: branch_787] Luneshwar | Thana: আটপাড়া
+- [ID: branch_788] Avoypasha | Thana: আটপাড়া
+- [ID: branch_789] Koilong | Thana: আটপাড়া
+- [ID: branch_790] Chargatiya | Thana: আটপাড়া
+- [ID: branch_791] Teligati | Thana: আটপাড়া
+- [ID: branch_792] Dijara | Thana: আটপাড়া
+- [ID: branch_793] Mangolshiddi | Thana: আটপাড়া
+- [ID: branch_794] Ramsiddo | Thana: আটপাড়া
+- [ID: branch_795] Sharomshiya | Thana: আটপাড়া
+- [ID: branch_796] Shukhari | Thana: আটপাড়া
+- [ID: branch_797] Paikura | Thana: কেন্দুয়া
+- [ID: branch_798] Satashidigar | Thana: কেন্দুয়া
+- [ID: branch_799] Hararkandi | Thana: কেন্দুয়া
+- [ID: branch_800] Kutubpur | Thana: কেন্দুয়া
+- [ID: branch_801] Sandikona | Thana: কেন্দুয়া
+- [ID: branch_802] Bhuiyar Bazar | Thana: কেন্দুয়া
+- [ID: branch_803] Machiali | Thana: কেন্দুয়া
+- [ID: branch_804] Bashati | Thana: কেন্দুয়া
+- [ID: branch_805] Durcapur | Thana: কেন্দুয়া
+- [ID: branch_806] Bidyaballabha | Thana: কেন্দুয়া
+- [ID: branch_807] Baghber | Thana: কেন্দুয়া
+- [ID: branch_808] Balijora | Thana: কেন্দুয়া
+- [ID: branch_809] Gonda | Thana: কেন্দুয়া
+- [ID: branch_810] Goradoba | Thana: কেন্দুয়া
+- [ID: branch_811] Kailati Phatepur | Thana: কেন্দুয়া
+- [ID: branch_812] Kachimpur | Thana: কেন্দুয়া
+- [ID: branch_813] Kaliyan | Thana: কেন্দুয়া

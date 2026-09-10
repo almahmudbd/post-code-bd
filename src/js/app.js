@@ -477,7 +477,7 @@
           <span class="mobile-field-tag">ডাকঘর</span>
           <span class="table-office-cell">
             ${po.postOfficeBn || po.postOfficeEn}
-            ${isBranch ? '<span class="branch-inline-tag">শাখা (EDBO)</span>' : ''}
+            ${isBranch ? '<span class="branch-inline-tag">শাখা</span>' : ''}
           </span>
         </td>
         <td class="col-code" style="text-align: right;">
@@ -507,11 +507,9 @@
           <div class="po-location" title="${locationText}">
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
             <span>${locationText}</span>
-            ${isBranch ? '<span class="branch-pill">EDBO</span>' : ''}
           </div>
           <div class="po-title" title="${po.postOfficeBn || po.postOfficeEn}">
             ${po.postOfficeBn || po.postOfficeEn}
-            ${isBranch && po.postOfficeEn && po.postOfficeEn !== po.postOfficeBn ? `<span class="po-en-sub">${po.postOfficeEn}</span>` : ''}
           </div>
         </div>
         <div class="po-code-box">
@@ -586,7 +584,7 @@
         render();
         showToast(
           state.showBranchOffices
-            ? 'পোস্ট কোড ছাড়া শাখা ডাকঘর (EDBO) তালিকায় যুক্ত করা হয়েছে!'
+            ? 'পোস্ট কোড ছাড়া শাখা ডাকঘর তালিকায় যুক্ত করা হয়েছে!'
             : 'শাখা ডাকঘর তালিকা থেকে লুকানো হয়েছে।'
         );
       });
@@ -835,7 +833,7 @@
       if (po.postCodeEn) {
         text += `• ${po.thanaBn} | ${po.postOfficeBn}: ${po.postCodeEn} (${po.postCodeBn})\n`;
       } else {
-        text += `• ${po.thanaBn} | ${po.postOfficeBn || po.postOfficeEn} [শাখা ডাকঘর/EDBO - কোড নেই]\n`;
+        text += `• ${po.thanaBn} | ${po.postOfficeBn || po.postOfficeEn} [শাখা ডাকঘর - কোড নেই]\n`;
       }
     });
 

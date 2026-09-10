@@ -164,7 +164,7 @@ class DistrictImageGenerator {
         ? (isDark ? '#38bdf8' : '#0369a1')
         : (isDark ? '#fbbf24' : '#d97706');
       ctx.textAlign = 'center';
-      const badgeText = item.postCodeEn ? `${item.postCodeEn} (${item.postCodeBn})` : 'শাখা (EDBO)';
+      const badgeText = item.postCodeEn ? `${item.postCodeEn} (${item.postCodeBn})` : 'শাখা ডাকঘর';
       ctx.fillText(badgeText, codeBadgeX + codeBadgeWidth / 2, codeBadgeY + 17);
       ctx.textAlign = 'left'; // reset
     }

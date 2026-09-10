@@ -3,7 +3,7 @@
  * Complete offline capability & instant caching strategy
  */
 
-const CACHE_NAME = 'postcode-bd-v2';
+const CACHE_NAME = 'postcode-bd-v6';
 const FONT_CACHE_NAME = 'postcode-bd-fonts-v2';
 
 // Essential assets to cache immediately on install
