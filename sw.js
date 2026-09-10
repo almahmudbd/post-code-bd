@@ -3,7 +3,7 @@
  * Complete offline capability & instant caching strategy
  */
 
-const CACHE_NAME = 'postcode-bd-v8';
+const CACHE_NAME = 'postcode-bd-v12';
 const FONT_CACHE_NAME = 'postcode-bd-fonts-v2';
 
 // Essential assets to cache immediately on install
@@ -131,40 +131,26 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // Same-origin static assets: Stale-While-Revalidate strategy
+  // Same-origin static assets: Network-First with offline cache fallback
   if (url.origin === self.location.origin) {
     event.respondWith(
-      caches.open(CACHE_NAME).then(async (cache) => {
-        const cachedResponse = await cache.match(request, { ignoreSearch: true });
-
-        const fetchPromise = fetch(request)
-          .then((networkResponse) => {
-            if (networkResponse && networkResponse.status === 200) {
-              cache.put(request, networkResponse.clone());
-            }
-            return networkResponse;
-          })
-          .catch(() => {
-            // Network failed, we'll rely on cachedResponse
-            return null;
+      fetch(request)
+        .then((networkResponse) => {
+          if (networkResponse && networkResponse.status === 200) {
+            const clone = networkResponse.clone();
+            caches.open(CACHE_NAME).then((cache) => cache.put(request, clone));
+          }
+          return networkResponse;
+        })
+        .catch(async () => {
+          const cache = await caches.open(CACHE_NAME);
+          const cachedResponse = await cache.match(request, { ignoreSearch: true });
+          if (cachedResponse) return cachedResponse;
+          return new Response('Offline resource unavailable', {
+            status: 503,
+            statusText: 'Service Unavailable'
           });
-
-        // Return cached instantly if available; otherwise wait for network
-        if (cachedResponse) {
-          // Update cache in background (fire and forget)
-          fetchPromise.catch(() => {});
-          return cachedResponse;
-        }
-
-        const networkResult = await fetchPromise;
-        if (networkResult) return networkResult;
-
-        // Fallback for missing offline items
-        return new Response('Offline resource unavailable', {
-          status: 503,
-          statusText: 'Service Unavailable'
-        });
-      })
+        })
     );
     return;
   }

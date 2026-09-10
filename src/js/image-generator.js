@@ -35,15 +35,15 @@ class DistrictImageGenerator {
     canvas.height = height * scale;
     ctx.scale(scale, scale);
     
-    // Background
-    const bgColor = isDark ? '#0f172a' : '#f8fafc';
-    const cardBg = isDark ? '#1e293b' : '#ffffff';
-    const borderColor = isDark ? '#334155' : '#e2e8f0';
-    const primaryText = isDark ? '#f8fafc' : '#0f172a';
-    const secondaryText = isDark ? '#94a3b8' : '#64748b';
+    // Background (from old-project)
+    const bgColor = isDark ? '#0d131f' : '#f4f7fb';
+    const cardBg = isDark ? '#162032' : '#ffffff';
+    const borderColor = isDark ? '#273449' : '#e2e8f0';
+    const primaryText = isDark ? '#f8fafc' : '#13263f';
+    const secondaryText = isDark ? '#94a3b8' : '#53667f';
     const brandRed = '#e11d48';
     const brandGreen = '#059669';
-    const accentBlue = '#2563eb';
+    const accentBlue = isDark ? '#60a5fa' : '#1d64ec';
     
     // Outer Background
     ctx.fillStyle = bgColor;
@@ -147,11 +147,11 @@ class DistrictImageGenerator {
       const codeBadgeX = itemX + colWidth - codeBadgeWidth;
       const codeBadgeY = itemY;
       
-      ctx.fillStyle = isDark ? '#0284c726' : '#e0f2fe';
+      ctx.fillStyle = isDark ? 'rgba(37, 99, 235, 0.2)' : '#edf2fe';
       this.roundRect(ctx, codeBadgeX, codeBadgeY, codeBadgeWidth, 26, 6);
       ctx.fill();
       
-      ctx.strokeStyle = isDark ? '#38bdf844' : '#bae6fd';
+      ctx.strokeStyle = isDark ? 'rgba(96, 165, 250, 0.4)' : '#c7d9fe';
       ctx.lineWidth = 1;
       this.roundRect(ctx, codeBadgeX, codeBadgeY, codeBadgeWidth, 26, 6);
       ctx.stroke();
@@ -161,7 +161,7 @@ class DistrictImageGenerator {
         ? '700 13px "JetBrains Mono", "Noto Sans Bengali", monospace'
         : '600 11px "Noto Sans Bengali", sans-serif';
       ctx.fillStyle = item.postCodeEn 
-        ? (isDark ? '#38bdf8' : '#0369a1')
+        ? (isDark ? '#60a5fa' : '#1d64ec')
         : (isDark ? '#fbbf24' : '#d97706');
       ctx.textAlign = 'center';
       const badgeText = item.postCodeEn ? `${item.postCodeEn} (${item.postCodeBn})` : 'শাখা ডাকঘর';

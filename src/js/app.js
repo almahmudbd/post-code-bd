@@ -207,22 +207,32 @@
   // Render Filters & Selectors
   // ==========================================================================
 
+  const DIVISION_ORDER = [
+    "Dhaka",
+    "Chattogram",
+    "Rajshahi",
+    "Khulna",
+    "Sylhet",
+    "Barishal",
+    "Rangpur",
+    "Mymensingh"
+  ];
+
   function renderDivisionPills() {
     if (!elements.divisionPillsContainer) return;
 
-    const totalDistricts = state.districts.length;
     let html = `
+      <span class="division-label">DIVISION</span>
       <button class="division-pill ${state.activeDivision === 'all' ? 'active' : ''}" data-division="all">
-        All Divisions <span class="pill-count">${totalDistricts}</span>
+        All
       </button>
     `;
 
-    state.divisions.forEach(div => {
-      const count = state.districts.filter(d => d.divisionEn === div.en).length;
-      const isActive = state.activeDivision === div.en;
+    DIVISION_ORDER.forEach(divName => {
+      const isActive = state.activeDivision === divName;
       html += `
-        <button class="division-pill ${isActive ? 'active' : ''}" data-division="${div.en}">
-          ${div.en} <span class="pill-count">${count}</span>
+        <button class="division-pill ${isActive ? 'active' : ''}" data-division="${divName}">
+          ${divName}
         </button>
       `;
     });
@@ -368,15 +378,10 @@
   function render() {
     const filteredDistricts = getFilteredData();
     const totalOffices = filteredDistricts.reduce((sum, d) => sum + d.postOffices.length, 0);
-    const branchCount = filteredDistricts.reduce((sum, d) => sum + d.postOffices.filter(po => po.isBranchOffice).length, 0);
 
     // Update stats
     if (elements.statFilteredCount) {
-      if (state.showBranchOffices && branchCount > 0) {
-        elements.statFilteredCount.innerHTML = `${totalOffices} <span style="font-weight: 500; font-size: 0.82em; color: var(--text-muted);">(${totalOffices - branchCount} প্রধান/সাব + ${branchCount} শাখা)</span>`;
-      } else {
-        elements.statFilteredCount.textContent = totalOffices;
-      }
+      elements.statFilteredCount.textContent = totalOffices;
     }
     if (elements.statDistrictCount) elements.statDistrictCount.textContent = filteredDistricts.length;
 
