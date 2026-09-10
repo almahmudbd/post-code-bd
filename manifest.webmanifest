@@ -74,10 +74,10 @@
       ]
     },
     {
-      "name": "Contact & Disclaimer",
-      "short_name": "Contact",
-      "description": "Contact info and disclaimer",
-      "url": "/contact",
+      "name": "About & Sources",
+      "short_name": "About",
+      "description": "About, sources and disclaimer",
+      "url": "/about",
       "icons": [
         {
           "src": "/icons/icon-192.png",

@@ -582,6 +582,26 @@ button, input, select {
   color: var(--text-primary);
 }
 
+.source-hint-tag a {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.78rem;
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+  background: var(--bg-surface-muted);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: all var(--transition-fast);
+}
+
+.source-hint-tag a:hover {
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+  background: var(--color-primary-light);
+}
+
 .toolbar-controls {
   display: flex;
   align-items: center;

@@ -3,13 +3,14 @@
  * Complete offline capability & instant caching strategy
  */
 
-const CACHE_NAME = 'postcode-bd-v6';
+const CACHE_NAME = 'postcode-bd-v8';
 const FONT_CACHE_NAME = 'postcode-bd-fonts-v2';
 
 // Essential assets to cache immediately on install
 const PRECACHE_ASSETS = [
   '/',
   '/index.html',
+  '/about.html',
   '/contact.html',
   '/manifest.webmanifest',
   '/manifest.json',
@@ -103,29 +104,29 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // Navigation Requests (HTML Pages): Stale-While-Revalidate with offline fallback
+  // Navigation Requests (HTML Pages): Network-First with offline cache fallback
   if (request.mode === 'navigate') {
     event.respondWith(
-      caches.open(CACHE_NAME).then(async (cache) => {
-        const cachedResponse = await cache.match(request);
-        const fetchPromise = fetch(request)
-          .then((networkResponse) => {
-            if (networkResponse && networkResponse.status === 200) {
-              cache.put(request, networkResponse.clone());
-            }
-            return networkResponse;
-          })
-          .catch(async () => {
-            // Offline: fallback to cached requested page, or index.html
-            if (cachedResponse) return cachedResponse;
-            if (url.pathname.includes('contact')) {
-              return cache.match('/contact.html');
-            }
-            return cache.match('/index.html') || cache.match('/');
-          });
-
-        return cachedResponse || fetchPromise;
-      })
+      fetch(request)
+        .then((networkResponse) => {
+          if (networkResponse && networkResponse.status === 200) {
+            const responseClone = networkResponse.clone();
+            caches.open(CACHE_NAME).then((cache) => cache.put(request, responseClone));
+          }
+          return networkResponse;
+        })
+        .catch(async () => {
+          const cache = await caches.open(CACHE_NAME);
+          const cachedResponse = await cache.match(request);
+          if (cachedResponse) return cachedResponse;
+          if (url.pathname.includes('about')) {
+            return cache.match('/about.html');
+          }
+          if (url.pathname.includes('contact')) {
+            return cache.match('/about.html') || cache.match('/contact.html');
+          }
+          return cache.match('/index.html') || cache.match('/');
+        })
     );
     return;
   }

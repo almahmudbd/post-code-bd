@@ -2,6 +2,7 @@
 AGENT.md
 CLAUDE.md
 .agent-mem/
+old-project/
 
 # Auto-generated agent rules (personalized per developer)
 .brainsync/agent-rules.md
