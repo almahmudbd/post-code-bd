@@ -3,8 +3,8 @@
  * Complete offline capability & instant caching strategy
  */
 
-const CACHE_NAME = 'postcode-bd-v1';
-const FONT_CACHE_NAME = 'postcode-bd-fonts-v1';
+const CACHE_NAME = 'postcode-bd-v2';
+const FONT_CACHE_NAME = 'postcode-bd-fonts-v2';
 
 // Essential assets to cache immediately on install
 const PRECACHE_ASSETS = [
@@ -13,6 +13,7 @@ const PRECACHE_ASSETS = [
   '/contact.html',
   '/manifest.webmanifest',
   '/manifest.json',
+  '/src/css/fonts.css',
   '/src/css/style.css',
   '/src/js/app.js',
   '/src/js/image-generator.js',
@@ -24,7 +25,25 @@ const PRECACHE_ASSETS = [
   '/icons/icon-maskable-192.png',
   '/icons/icon-maskable-512.png',
   '/icons/apple-touch-icon.png',
-  '/postcodebd-banners.png'
+  '/postcodebd-banners.png',
+  // Self-hosted fonts for complete offline support
+  '/src/fonts/inter-400.ttf',
+  '/src/fonts/inter-500.ttf',
+  '/src/fonts/inter-600.ttf',
+  '/src/fonts/inter-700.ttf',
+  '/src/fonts/inter-800.ttf',
+  '/src/fonts/jetbrains-mono-500.ttf',
+  '/src/fonts/jetbrains-mono-700.ttf',
+  '/src/fonts/noto-sans-bengali-400.ttf',
+  '/src/fonts/noto-sans-bengali-500.ttf',
+  '/src/fonts/noto-sans-bengali-600.ttf',
+  '/src/fonts/noto-sans-bengali-700.ttf',
+  '/src/fonts/noto-sans-bengali-800.ttf',
+  '/src/fonts/plus-jakarta-sans-400.ttf',
+  '/src/fonts/plus-jakarta-sans-500.ttf',
+  '/src/fonts/plus-jakarta-sans-600.ttf',
+  '/src/fonts/plus-jakarta-sans-700.ttf',
+  '/src/fonts/plus-jakarta-sans-800.ttf'
 ];
 
 // -----------------------------------------------------------------------------
@@ -84,29 +103,6 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // Google Fonts: Cache-First strategy with long-term cache
-  if (url.hostname === 'fonts.googleapis.com' || url.hostname === 'fonts.gstatic.com') {
-    event.respondWith(
-      caches.open(FONT_CACHE_NAME).then(async (fontCache) => {
-        const cachedResponse = await fontCache.match(request);
-        if (cachedResponse) {
-          return cachedResponse;
-        }
-        try {
-          const networkResponse = await fetch(request);
-          if (networkResponse && networkResponse.status === 200) {
-            fontCache.put(request, networkResponse.clone());
-          }
-          return networkResponse;
-        } catch (err) {
-          // If offline and font isn't in cache, fail gracefully
-          return cachedResponse || Response.error();
-        }
-      })
-    );
-    return;
-  }
-
   // Navigation Requests (HTML Pages): Stale-While-Revalidate with offline fallback
   if (request.mode === 'navigate') {
     event.respondWith(
@@ -154,8 +150,8 @@ self.addEventListener('fetch', (event) => {
 
         // Return cached instantly if available; otherwise wait for network
         if (cachedResponse) {
-          // Update cache in background
-          fetchPromise;
+          // Update cache in background (fire and forget)
+          fetchPromise.catch(() => {});
           return cachedResponse;
         }
 
